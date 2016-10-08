@@ -1,0 +1,66 @@
+## Basic Configuration
+
+baseurl = "https://you.github.io/" 
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Erlich Bachman"
+title = "Erlich Bachman"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+disqusShortname = "<yourDisqusShortName>" # Comment out to disable Disqus.
+googleAnalytics = "XYZ"
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Erlich Bachman"
+intro = "Startup Guru Extraordinaire"
+description = "Now @Pied Piper. Previously @Hacker Hostel, @Bachmanity and @Aviato. <br/> \"What is F times 5? It's Fleventy-five.\""
+authorImage = "headshot.jpg"
+dateFormat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+description = "Simple minimalist theme"
+keywords = "minimalist,blog,goa,hugo,developer"
+
+## Social Accounts
+[params.social]
+github = "<username>"
+instagram = "<username>"
+linkedIn = "<username>"
+twitter = "<username>"
+facebook = "<username>"
+google = "<username>"
+email = "you@example.com"
+
+## Extras
+[params.extra]
+copyright = "© 2016. Erlich Bachman. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)." 
+poweredBy = true
+hightlightJS = true
+
+## Main Menu
+[[menu.main]]
+    name = "blog"
+    weight = 100
+    identifier = "blog"
+    url = "/blog/"
+[[menu.main]]
+    name = "about"
+    identifier = "about"
+    weight = 200
+    url = "/about/"
+[[menu.main]]
+    name = "coderag"
+    identifier = "coderag"
+    weight = 300
+    url = "/coderag/"

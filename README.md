@@ -2,18 +2,7 @@
 
 Goa is a clean, simple and minimalist theme for blogs and personal websites.
 
-## Screenshots
-
-![Homepage](http://imgur.com/vqMd1Mx)
-![Standalone Page](http://imgur.com/dfj8MHz)
-![Standalone with Metadata](http://imgur.com/mMFfkZY)
-![List Page](http://imgur.com/7e67ypn)
-![Post Page](http://imgur.com/lz3RGH9)
-![Nav](http://imgur.com/IPggNGk)
-![Mobile Homepage](http://imgur.com/FW1Bdln)
-![Mobile List](http://imgur.com/vTY5GeX)
-![Mobile Post](http://imgur.com/aJZQYZ6)
-![Mobile Nav](http://imgur.com/rGQJAF3)
+<img src="http://i.imgur.com/vqMd1Mx.png" width="40%" height="40%" />
 
 ## Installation
 
@@ -22,7 +11,7 @@ From the root of your blog:
 ```
 mkdir -p themes
 cd themes
-git clone github.com/shenoybr/hugo-goa 
+git clone https://github.com/shenoybr/hugo-goa 
 ```
 
 ## Content creation
@@ -53,75 +42,75 @@ hugo new projects/index.md
 
 ## Configuration
 
-The provided [config.toml]() describes all options and features that are supported. Configure it your way!
+The provided [config.toml](https://github.com/shenoybr/hugo-goa/blob/master/exampleSite/config.toml) describes all options and features that are supported. Configure it your way!
 
 ### Basic Configuration
 
 These are site wide configuration parameters that are used by this template.
 
-`baseurl`: This is the root of your site.
-`builddrafts`: default=`false`. Enables or Disable building drafts when hugo is run.
-`canonifyurls`: default=`false`. Prefix all relative URLs with your base URL. [More Information](https://gohugo.io/extras/urls#canonicalization).
-`languageCode`: Used to set site localization preferences. eg. `en-US`.
-`contentdir`: Where hugo can find your content. eg. `content`.
-`layoutdir`: Where hugo can find your templates. eg. `layouts`.
-`publishdir`: Where hugo generates the static site. eg. `public`.
-
-`author`: Site author name. eg. `Erlich Bachman`.
-`title`: Site title name. eg. `Erlich Bachman`.
-
-`theme`: Your theme name should be set to `hugo-goa` if using this theme.
+- `baseurl`: This is the root of your site.
+- `builddrafts`: default=`false`. Enables or Disable building drafts when hugo is run.
+- `canonifyurls`: default=`false`. Prefix all relative URLs with your base URL. [More Information](https://gohugo.io/extras/urls#canonicalization).
+- `languageCode`: Used to set site localization preferences. eg. `en-US`.
+- `contentdir`: Where hugo can find your content. eg. `content`.
+- `layoutdir`: Where hugo can find your templates. eg. `layouts`.
+- `publishdir`: Where hugo generates the static site. eg. `public`.
+- `author`: Site author name. eg. `Erlich Bachman`.
+- `title`: Site title name. eg. `Erlich Bachman`.
+- `theme`: Your theme name should be set to `hugo-goa` if using this theme.
 
 ## Hugo Built-in Features
 
 These are features that hugo provides and are used by this template.
 
-`disqusShortname`: Your discusShortname if you want to enable comments on your posts.
-`googleAnalytics`: Your google analytics id for tracking.
-`enableRobotsTXT`: Enable or disable search engines from crawling your site.
+- `disqusShortname`: Your discusShortname if you want to enable comments on your posts.
+- `googleAnalytics`: Your google analytics id for tracking.
+- `enableRobotsTXT`: Enable or disable search engines from crawling your site.
 
 ## Site Settings `[params]`
 
 These are settings that are specific to this theme.
 
-`intro`: Author introduction. This field supports markdown. eg. `Startup Guru Extraordinaire`.
-`description`: Author description. This field supports markdown. eg. `Now @Pied Piper. Previously @Hacker Hostel, @Bachmanity and @Aviato. <br/> \"What is F times 5? It's Fleventy-five.\"`.
-`authorImage`: Location of author image under static/img directory. eg. `headshot.jpg`
-`dateFormat`: Golang date format to be used on this site. eg. `Jan 2, 2006`
+- `author`: Main author name. eg. `Erlich Bachman`.
+- `intro`: Author introduction. This field supports markdown. eg. `Startup Guru Extraordinaire`.
+- `description`: Author description. This field supports markdown. eg. `Now @Pied Piper. Previously @Hacker Hostel, @Bachmanity and @Aviato. <br/> \"What is F times 5? It's Fleventy-five.\"`.
+- `authorImage`: Location of author image under static/img directory. eg. `headshot.jpg`
+- `dateFormat`: Golang date format to be used on this site. eg. `Jan 2, 2006`
 
 ### Site Meta Settings `[params.meta]`
 
 These settings are included in the site's meta section.
 
-`description`: User this field to describe your site to search engines. eg. `Simple minimalist theme`.
-`keywords`: Keywords that desribe your site. eg. `minimalist,blog,goa,hugo,developer`.
+- `description`: User this field to describe your site to search engines. eg. `Simple minimalist theme`.
+- `keywords`: Keywords that desribe your site. eg. `minimalist,blog,goa,hugo,developer`.
 
 ### Social Accounts `[params.social]`
 
 These settings to display your social accounts.
 
-`github`: Your github username.
-`instagram`: Your instagram username.
-`linkedIn`: Your linkedIn username.
-`twitter`: Your twitter username.
-`facebook`: Your facebook username.
-`google`: Your google username.
-`email`: Your email.
+- `github`: Your github username.
+- `instagram`: Your instagram username.
+- `linkedIn`: Your linkedIn username.
+- `twitter`: Your twitter username.
+- `facebook`: Your facebook username.
+- `google`: Your google username.
+- `email`: Your email.
 
 ### Extras `[params.extra]`
 
 These settings for extra features that this site uses.
 
-`copyright`: Add a copyright statement to the bottom of the theme. eg. `© 2016. Erlich Bachman. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."`
-`poweredBy`: Help promote this theme and give the authors credit. eg. `true` or `false`.
-`hightlightJS`: Use highlightJS to highlight code on your site. eg. `true` or `false`.
+- `copyright`: Add a copyright statement to the bottom of the theme. eg. `© 2016. Erlich Bachman. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."`
+- `poweredBy`: Help promote this theme and give the authors credit. eg. `true` or `false`.
+- `hightlightJS`: Use highlightJS to highlight code on your site. eg. `true` or `false`.
 
 ### Main Menu `[[menu.main]]`
 
 These settings for the main menu that is displayed on the home page.
-`name`: Name of menu item. eg. `blog`
-`weight`: Weight of this menu item. Higher items go to the bottom. eg. `100`
-`url`: Root URL for this section/page. eg. `/blog/`.
+
+- `name`: Name of menu item. eg. `blog`
+- `weight`: Weight of this menu item. Higher items go to the bottom. eg. `100`
+- `url`: Root URL for this section/page. eg. `/blog/`.
 
 Example:
 ```
@@ -148,6 +137,19 @@ Example:
 * HighlighJS
 * Disqus support for commenting
 * Built-in support for 404 pages, Disqus comments and Google Analytics.
+
+## Screenshots
+
+<img src="http://i.imgur.com/vqMd1Mx.png" width="30%" height="30%" />
+<img src="http://i.imgur.com/dfj8MHz.png" width="30%" height="30%" />
+<img src="http://i.imgur.com/mMFfkZY.png" width="30%" height="30%" />
+<img src="http://i.imgur.com/7e67ypn.png" width="30%" height="30%" />
+<img src="http://i.imgur.com/lz3RGH9.png" width="30%" height="30%" />
+<img src="http://i.imgur.com/IPggNGk.png" width="30%" height="30%" />
+<img src="http://i.imgur.com/FW1Bdln.png" width="10%" height="10%" />
+<img src="http://i.imgur.com/vTY5GeX.png" width="10%" height="10%" />
+<img src="http://i.imgur.com/aJZQYZ6.png" width="10%" height="10%" />
+<img src="http://i.imgur.com/rGQJAF3.png" width="10%" height="10%" />
 
 ## Contributing
 
@@ -179,11 +181,12 @@ Example:
 
 The theme's design was inspired by many blogs and themes:
 
-1. Bruno de Carvalho's [blog](biasedbit.com).
+1. Bruno de Carvalho's [blog](http://biasedbit.com).
 2. [Hugo Cocoa](http://themes.gohugo.io/cocoa/).
 3. [Hugo Vec](http://themes.gohugo.io/hugo-theme-vec/).
-3. [Hugo Agency](http://themes.gohugo.io/hugo-agency/).
+4. [Hugo Agency](http://themes.gohugo.io/hugo-agency/).
 
 ## License
 
-Licensed under the MIT License. See the [LICENSE](https://github.com/nishanths/cocoa-hugo-theme/blob/master/LICENSE.md) file for more details.
+Licensed under the [MIT](https://opensource.org/licenses/MIT) License. See the [LICENSE](https://raw.githubusercontent.com/shenoybr/hugo-goa/master/LICENSE) file for more details.
+
