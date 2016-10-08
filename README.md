@@ -4,6 +4,10 @@ Goa is a clean, simple and minimalist theme for blogs and personal websites.
 
 <img src="http://i.imgur.com/vqMd1Mx.png" width="40%" height="40%" />
 
+## Demo
+
+You can find the demo site in action [here](https://shenoybr.github.io/hugo-goa-demo) and the source [here](https://github.com/shenoybr/hugo-goa-demo).
+
 ## Installation
 
 From the root of your blog:
