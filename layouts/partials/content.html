@@ -1,0 +1,41 @@
+<header class="row text-left title">
+  <h1 class="title">{{ .Title }}</h1>
+</header>
+<section id="category-pane" class="row meta">
+  {{ if ne .Params.showpagemeta false }}
+  <div class="col-md-12">
+    <h6 class="text-left meta">
+      PUBLISHED ON {{ .Date.Format .Site.Params.dateFormat | upper }} 
+      {{ $total := len .Params.categories }}
+      {{ if gt $total 0 }}
+      — 
+      {{ $total := sub $total 1 }}
+      {{ range $i, $cat := sort $.Params.categories }}
+      <a class="meta" href="{{ "/categories/" | relURL }}{{ $cat | urlize }}">{{ $cat | upper }}</a>{{ if lt $i $total }}, {{ end }}
+      {{ end }}
+      {{ end }}
+    </h6>
+  </div>
+  {{ end }}
+</section>
+<section id="content-pane" class="row">
+  <div class="col-md-12 text-justify content">
+    {{ .Content }}
+  </div>
+</section>
+<section id="tag-pane" class="row meta">
+  {{ if ne .Params.showpagemeta false }}
+  <div class="col-md-12">
+    <h6 class="text-right meta">
+      {{ $total := len .Params.tags }}
+      {{ if gt $total 0 }}
+      TAGS: 
+      {{ $subtotal := sub $total 1 }}
+      {{ range $i, $tag := sort $.Params.tags }}
+      <a class="meta" href="{{ "/tags/" | relURL }}{{ $tag | urlize }}">{{ $tag | upper }}</a>{{ if lt $i $subtotal }}, {{ end }}
+      {{ end }}
+      {{ end }}
+    </h6>
+  </div>
+  {{ end }}
+</section>
