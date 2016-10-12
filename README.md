@@ -44,6 +44,13 @@ directory.
 hugo new projects/index.md
 ````
 
+### Page settings
+
+These settings are at the page level.
+
+- `showpagemeta`: `default=true`. This allows you to disable page meta information from being displayed. For example, this setting is disabled [here](https://shenoybr.github.io/hugo-goa-demo/about/) and enabled [here](https://shenoybr.github.io/hugo-goa-demo/coderag/).
+- `showcomments`: `default=true`. Enables or disable comments. For example, this setting is disabled [here](https://shenoybr.github.io/hugo-goa-demo/blog/third/) and enabled [here](https://shenoybr.github.io/hugo-goa-demo/blog/first/).
+
 ## Configuration
 
 The provided [config.toml](https://github.com/shenoybr/hugo-goa/blob/master/exampleSite/config.toml) describes all options and features that are supported. Configure it your way!
