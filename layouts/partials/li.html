@@ -4,7 +4,7 @@
     <li class="list-entry">
       <a class="list-entry-link" href="{{ .Permalink }}">{{ .Title }}</a>
       <p class="meta">
-        {{ .Date.Format .Site.Params.dateFormat | upper }} 
+        {{ .Date.Format ".Site.Params.dateFormat" | upper }} 
         <span class="category">
         {{ $total := len .Params.categories }}
         {{ if gt $total 0 }}

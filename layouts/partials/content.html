@@ -5,7 +5,7 @@
   {{ if ne .Params.showpagemeta false }}
   <div class="col-md-12">
     <h6 class="text-left meta">
-      PUBLISHED ON {{ .Date.Format .Site.Params.dateFormat | upper }} 
+      PUBLISHED ON {{ .Date.Format ".Site.Params.dateFormat" | upper }} 
       {{ $total := len .Params.categories }}
       {{ if gt $total 0 }}
       — 
