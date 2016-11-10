@@ -113,7 +113,7 @@ These settings for extra features that this site uses.
 
 - `copyright`: Add a copyright statement to the bottom of the theme. eg. `© 2016. Erlich Bachman. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."`
 - `poweredBy`: Help promote this theme and give the authors credit. eg. `true` or `false`.
-- `hightlightJS`: Use highlightJS to highlight code on your site. eg. `true` or `false`.
+- `highlightJS`: Use highlightJS to highlight code on your site. eg. `true` or `false`.
 
 ### Main Menu `[[menu.main]]`
 
