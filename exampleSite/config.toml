@@ -24,8 +24,8 @@ enableRobotsTXT = true
 author = "Erlich Bachman"
 intro = "Startup Guru Extraordinaire"
 description = "Now @Pied Piper. Previously @Hacker Hostel, @Bachmanity and @Aviato. <br/> \"What is F times 5? It's Fleventy-five.\""
-authorImage = "headshot.jpg"
-dateFormat = "Jan 2, 2006"
+authorimage = "headshot.jpg"
+dateformat = "Jan 2, 2006"
 
 ## Site Meta Settings
 [params.meta]

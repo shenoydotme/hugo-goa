@@ -85,8 +85,8 @@ These are settings that are specific to this theme.
 - `author`: Main author name. eg. `Erlich Bachman`.
 - `intro`: Author introduction. This field supports markdown. eg. `Startup Guru Extraordinaire`.
 - `description`: Author description. This field supports markdown. eg. `Now @Pied Piper. Previously @Hacker Hostel, @Bachmanity and @Aviato. <br/> \"What is F times 5? It's Fleventy-five.\"`.
-- `authorImage`: Location of author image under static/img directory. eg. `headshot.jpg`
-- `dateFormat`: Golang date format to be used on this site. eg. `Jan 2, 2006`
+- `authorimage`: Location of author image under static/img directory. eg. `headshot.jpg`
+- `dateformat`: Golang date format to be used on this site. eg. `Jan 2, 2006`
 
 ### Site Meta Settings `[params.meta]`
 
