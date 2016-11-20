@@ -45,7 +45,7 @@ email = "you@example.com"
 ## Extras
 [params.extra]
 copyright = "© 2016. Erlich Bachman. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)." 
-poweredBy = true
+poweredby = true
 highlightjs = true
 
 ## Main Menu
