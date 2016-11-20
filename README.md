@@ -101,7 +101,7 @@ These settings to display your social accounts.
 
 - `github`: Your github username.
 - `instagram`: Your instagram username.
-- `linkedIn`: Your linkedIn username.
+- `linkedin`: Your linkedIn username.
 - `twitter`: Your twitter username.
 - `facebook`: Your facebook username.
 - `google`: Your google username.
