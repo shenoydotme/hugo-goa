@@ -1,6 +1,6 @@
 ## Basic Configuration
 
-baseurl = "" #Example "https://<you>.github.io/"  
+baseurl = "https://shenoybr.github.io/hugo-goa-demo/" 
 builddrafts = false
 canonifyurls = false
 languageCode = "en-US"
@@ -15,7 +15,7 @@ title = "Erlich Bachman"
 theme = "hugo-goa"
 
 ## Hugo Built-in Features
-disqusShortname = "<yourDisqusShortName>" # Comment out to disable Disqus.
+disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
 googleAnalytics = "XYZ"
 enableRobotsTXT = true
 
@@ -40,13 +40,14 @@ linkedin = "<username>"
 twitter = "<username>"
 facebook = "<username>"
 google = "<username>"
+stackoverflow = "<username>"
 email = "you@example.com"
 
 ## Extras
 [params.extra]
 copyright = "© 2016. Erlich Bachman. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)." 
 poweredby = true
-highlightjs = true
+hightlightjs = true
 
 ## Main Menu
 [[menu.main]]

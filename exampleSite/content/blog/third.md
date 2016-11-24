@@ -4,6 +4,7 @@ comments = false
 date = "2016-10-03T16:59:13-04:00"
 draft = false
 showpagemeta = true
+showcomments = false
 slug = ""
 tags = ["gavin", "belson", "hooli"]
 title = "Hooli’s Hot New Hardware"
