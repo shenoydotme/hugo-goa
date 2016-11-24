@@ -85,8 +85,8 @@ These are settings that are specific to this theme.
 - `author`: Main author name. eg. `Erlich Bachman`.
 - `intro`: Author introduction. This field supports markdown. eg. `Startup Guru Extraordinaire`.
 - `description`: Author description. This field supports markdown. eg. `Now @Pied Piper. Previously @Hacker Hostel, @Bachmanity and @Aviato. <br/> \"What is F times 5? It's Fleventy-five.\"`.
-- `authorImage`: Location of author image under static/img directory. eg. `headshot.jpg`
-- `dateFormat`: Golang date format to be used on this site. eg. `Jan 2, 2006`
+- `authorimage`: Location of author image under static/img directory. eg. `headshot.jpg`
+- `dateformat`: Golang date format to be used on this site. eg. `Jan 2, 2006`
 
 ### Site Meta Settings `[params.meta]`
 
@@ -101,7 +101,7 @@ These settings to display your social accounts.
 
 - `github`: Your github username.
 - `instagram`: Your instagram username.
-- `linkedIn`: Your linkedIn username.
+- `linkedin`: Your linkedIn username.
 - `twitter`: Your twitter username.
 - `facebook`: Your facebook username.
 - `google`: Your google username.
@@ -112,8 +112,8 @@ These settings to display your social accounts.
 These settings for extra features that this site uses.
 
 - `copyright`: Add a copyright statement to the bottom of the theme. eg. `© 2016. Erlich Bachman. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."`
-- `poweredBy`: Help promote this theme and give the authors credit. eg. `true` or `false`.
-- `highlightJS`: Use highlightJS to highlight code on your site. eg. `true` or `false`.
+- `poweredby`: Help promote this theme and give the authors credit. eg. `true` or `false`.
+- `highlightjs`: Use highlightJS to highlight code on your site. eg. `true` or `false`.
 
 ### Main Menu `[[menu.main]]`
 
