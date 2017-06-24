@@ -5,6 +5,10 @@
 {{ with .Site.Params.extra }}
 {{ if .highlightjs }}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js"></script>
+  {{ range .highlightjslanguages }}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/languages/{{.}}.min.js"></script>
+  {{ end }}
+
 <script type="text/javascript">
 hljs.initHighlightingOnLoad();
 </script>
