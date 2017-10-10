@@ -4,14 +4,16 @@
     <li class="list-entry">
       <a class="list-entry-link" href="{{ .Permalink }}">{{ .Title }}</a>
       <p class="meta">
-        {{ .Date.Format .Site.Params.dateformat | upper }} 
+        {{ .Date.Format .Site.Params.dateformat | upper }}
         <span class="category">
+        {{ if isset .Params "categories" }}
         {{ $total := len .Params.categories }}
         {{ if gt $total 0 }}
         —
         {{ $total := sub $total 1 }}
         {{ range $i, $cat := sort .Params.categories }}
         <a class="category" href="{{ "/categories/" | relURL }}{{ $cat | humanize | urlize }}">{{ $cat | upper }}</a>{{ if lt $i $total }}, {{ end }}
+        {{ end }}
         {{ end }}
         {{ end }}
         </span>

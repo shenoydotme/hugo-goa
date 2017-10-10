@@ -5,11 +5,11 @@
   {{ if ne .Params.showpagemeta false }}
   <div class="col-md-12">
     <h6 class="text-left meta">
-      PUBLISHED ON {{ .Date.Format .Site.Params.dateformat | upper }} 
+      PUBLISHED ON {{ .Date.Format .Site.Params.dateformat | upper }}
       {{ if isset .Params "categories" }}
       {{ $total := len .Params.categories }}
       {{ if gt $total 0 }}
-      — 
+      —
       {{ $total := sub $total 1 }}
       {{ range $i, $cat := sort $.Params.categories }}
       <a class="meta" href="{{ "/categories/" | relURL }}{{ $cat | urlize }}">{{ $cat | upper }}</a>{{ if lt $i $total }}, {{ end }}
@@ -32,7 +32,7 @@
       {{ if isset .Params "tags" }}
       {{ $total := len .Params.tags }}
       {{ if gt $total 0 }}
-      TAGS: 
+      TAGS:
       {{ $subtotal := sub $total 1 }}
       {{ range $i, $tag := sort $.Params.tags }}
       <a class="meta" href="{{ "/tags/" | relURL }}{{ $tag | urlize }}">{{ $tag | upper }}</a>{{ if lt $i $subtotal }}, {{ end }}
