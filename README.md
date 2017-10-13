@@ -1,9 +1,15 @@
+
 # Goa
 
 Goa is a clean, simple and minimalist theme for blogs and personal websites.
 
 <img src="http://i.imgur.com/vqMd1Mx.png" width="40%" height="40%" />
 
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://raw.githubusercontent.com/shenoybr/hugo-goa/master/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/shenoybr/hugo-goa.svg?style=flat-square)](https://github.com/shenoybr/hugo-goa/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/shenoybr/hugo-goa.svg?style=flat-square)](https://github.com/shenoybr/hugo-goa/network)
+[![quality badge](https://img.shields.io/badge/cuteness-overload-orange.svg?style=flat-square)](http://www.emergencykitten.com/)
+[![Twitter](https://img.shields.io/twitter/url/https/github.com/shenoybr/hugo-goa.svg?style=social&style=flat-square)](https://twitter.com/intent/tweet?text=Wow:&url=%5Bobject%20Object%5D)
 ## Demo
 
 You can find the demo site in action [here](https://shenoybr.github.io/hugo-goa-demo) and the source [here](https://github.com/shenoybr/hugo-goa-demo).
