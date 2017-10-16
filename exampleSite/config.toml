@@ -36,6 +36,7 @@ keywords = "minimalist,blog,goa,hugo,developer"
 [params.social]
 github = "<username>"
 instagram = "<username>"
+xing = "<username>"
 linkedin = "<username>"
 twitter = "<username>"
 facebook = "<username>"
