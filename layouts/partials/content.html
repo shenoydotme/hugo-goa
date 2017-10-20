@@ -1,5 +1,6 @@
 <header class="row text-left title">
   <h1 class="title">{{ .Title }}</h1>
+  <h6 class="text-left"><a class="menu-item" href="{{ .Site.BaseURL }}">home</a></h6>
 </header>
 <section id="category-pane" class="row meta">
   {{ if ne .Params.showpagemeta false }}
