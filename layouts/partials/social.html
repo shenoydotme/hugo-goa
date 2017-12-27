@@ -1,4 +1,7 @@
 <section id="social-pane" class="row text-center social">
+  {{ with .Site.Params.social.email }}
+  <a href="mailto:{{.}}"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+  {{ end }}
   {{ with .Site.Params.social.twitter }}
   <a href="https://twitter.com/{{.}}"><i class="fa fa-twitter" aria-hidden="true"></i></a>
   {{ end }}
@@ -29,10 +32,19 @@
   {{ with .Site.Params.social.angellist}}
   <a href="https://angel.co/{{.}}"><i class="fa fa-angellist" aria-hidden="true"></i></a>
   {{ end }}
-  {{ with .Site.Params.social.email }}
-  <a href="mailto:{{.}}"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
-  {{ end }}
   {{ with .Site.Params.social.xing }}
   <a href="https://www.xing.com/profile/{{.}}"><i class="fa fa-xing" aria-hidden="true"></i></a>
+  {{ end }}
+  {{ with .Site.Params.social.applestackexchange }}
+  <a href="https://apple.stackoverflow.com/users/{{.}}"><i class="fa fa-apple" aria-hidden="true"></i></a>
+  {{ end }}
+  {{ with .Site.Params.social.stackexchange }}
+  <a href="https://stackexchange.com/users/{{.}}"><i class="fa fa-stack-exchange" aria-hidden="true"></i></a>
+  {{ end }}
+  {{ with .Site.Params.social.reddit }}
+  <a href="https://www.reddit.com/user/{{.}}"><i class="fa fa-reddit-alien" aria-hidden="true"></i></a>
+  {{ end }}
+  {{ with .Site.Params.social.lastfm }}
+  <a href="https://www.last.fm/user/{{.}}"><i class="fa fa-lastfm-square" aria-hidden="true"></i></a>
   {{ end }}
 </section>
