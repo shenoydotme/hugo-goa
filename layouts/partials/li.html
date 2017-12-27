@@ -1,6 +1,6 @@
 <section id="list-pane" class="row list">
   <ul >
-    {{ range .Data.Pages.ByPublishDate }}
+    {{ range .Data.Pages.ByPublishDate.Reverse }}
     <li class="list-entry">
       <a class="list-entry-link" href="{{ .Permalink }}">{{ .Title }}</a>
       <p class="meta">
