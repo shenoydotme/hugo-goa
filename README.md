@@ -113,7 +113,7 @@ These settings to display your social accounts.
 - `facebook`: Your facebook username.
 - `google`: Your google username.
 - `medium`: Your medium username.
-- `dev.to`: Your dev.to username.
+- `devto`: Your dev.to username.
 - `stackoverflow`: Your stackoverflow username.
 - `angellist`: Your angellist username.
 - `email`: Your email.
