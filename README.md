@@ -21,7 +21,7 @@ From the root of your blog:
 ```
 mkdir -p themes
 cd themes
-git clone https://github.com/shenoybr/hugo-goa 
+git clone https://github.com/shenoybr/hugo-goa
 ```
 
 ## Content creation
@@ -39,7 +39,7 @@ or
 hugo new posts/first.md
 ````
 
-You can now go ahead an edit the newly created file under the `content` directory. Once you are finished editing, to have hugo generate the page, set `draft = false` in the articles front matter. 
+You can now go ahead an edit the newly created file under the `content` directory. Once you are finished editing, to have hugo generate the page, set `draft = false` in the articles front matter.
 
 ### Organizing pages
 
@@ -108,10 +108,14 @@ These settings to display your social accounts.
 - `github`: Your github username.
 - `instagram`: Your instagram username.
 - `xing`: Your xing username.
-- `linkedin`: Your linkedIn username.
+- `linkedin`: Your linkedin username.
 - `twitter`: Your twitter username.
 - `facebook`: Your facebook username.
 - `google`: Your google username.
+- `medium`: Your medium username.
+- `dev.to`: Your dev.to username.
+- `stackoverflow`: Your stackoverflow username.
+- `angellist`: Your angellist username.
 - `email`: Your email.
 
 ### Extras `[params.extra]`
@@ -191,7 +195,7 @@ Example:
 3. Make sure your code follows the style of the project.
 4. Test it thoroughly.
 5. Open a PR requesting for it to be merged.
-6. Describe the feature or issue your are solving in detail. 
+6. Describe the feature or issue your are solving in detail.
 7. Wait for its approval.
 8. Merge and Rejoice.
 
@@ -207,4 +211,3 @@ The theme's design was inspired by many blogs and themes:
 ## License
 
 Licensed under the [MIT](https://opensource.org/licenses/MIT) License. See the [LICENSE](https://raw.githubusercontent.com/shenoybr/hugo-goa/master/LICENSE) file for more details.
-
