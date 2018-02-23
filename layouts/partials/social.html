@@ -35,4 +35,7 @@
   {{ with .Site.Params.social.xing }}
   <a href="https://www.xing.com/profile/{{.}}"><i class="fa fa-xing" aria-hidden="true"></i></a>
   {{ end }}
+  {{ if and ( .Site.Params.extra.rss ) ( .RSSLink ) }}
+  <a href="{{ .RSSLink }}"><i class="fa fa-rss" aria-hidden="true"></i></a>
+  {{ end }}
 </section>
