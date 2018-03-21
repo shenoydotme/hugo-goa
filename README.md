@@ -106,6 +106,7 @@ These settings are included in the site's meta section.
 These settings to display your social accounts.
 
 - `github`: Your github username.
+- `keybase`: Your Keybase username.
 - `instagram`: Your instagram username.
 - `xing`: Your xing username.
 - `linkedin`: Your linkedin username.
