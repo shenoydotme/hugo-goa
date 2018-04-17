@@ -54,6 +54,16 @@ html
 {
     font-family: 'Roboto Slab', serif;
 }
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6
+{
+    font-family: 'Roboto Slab', serif;
+    color: #526d7a !important;
+}
 .category
 {
     color: #526d7a !important;
@@ -77,6 +87,7 @@ div.content
     font-weight: 300;
 
     color: #777;
+
 }
 .copyright
 {
@@ -147,6 +158,14 @@ div.content
 h3.intro
 {
     margin-top: 0px
+}
+h5.description,
+h4.description
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    color: #bbb;
+
 }
 .list
 {
@@ -254,4 +273,9 @@ header.title
 
         margin-top: 30px;
     }
+}
+code: not(.hljs)
+{
+    color: #526d7a !important;
+    background-color: #f1f5f9;
 }
