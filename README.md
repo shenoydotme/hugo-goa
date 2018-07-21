@@ -150,6 +150,7 @@ These settings for extra features that this site uses.
 - `rss`: Enable rss icon next to social accounts.
 - `poweredby`: Help promote this theme and give the authors credit. eg. `true` or `false`.
 - `highlightjs`: Use highlightJS to highlight code on your site. eg. `true` or `false`.
+- `socialmarkup`: Adds links that conform to the [Schema.org](schema.org) markup. See this [link](https://developers.google.com/search/docs/data-types/social-profile) for more.
 
 ### Main Menu `[[menu.main]]`
 

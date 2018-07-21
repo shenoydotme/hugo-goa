@@ -71,6 +71,7 @@ email = "you@example.com"
 copyright = "© 2016. Erlich Bachman. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
 poweredby = true
 highlightjs = true
+socialmarkup = true
 
 ## Main Menu
 [[menu.main]]
