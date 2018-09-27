@@ -1,14 +1,15 @@
 <section id="menu-pane" class="row menu text-center">
   {{ if not .IsNode }}
   {{ with .PrevInSection }}
-  <span><a class="menu-item" href="{{ .Permalink }}">&lt; prev | </a></span>
+  <span><a class="menu-item" href="{{ .Permalink }}"><i class="fa fa-arrow-left" aria-hidden="true"></i></a></span>
   {{ end }}
   {{ if (or (.PrevInSection) (.NextInSection)) }}
-  <span><a class="menu-item" href="{{ .Section | relURL }}">{{ .Section | lower }}</a></span>
+  <!--- <span><a class="menu-item" href="{{ .Section | relURL }}">{{ .Section | lower }}</a></span> -->
+  <span><a class="menu-item" href="{{ .Section | relURL }}"><i class="fa fa-bars" aria-hidden="true"></i></a></span>
   {{ end }}
   {{ with .NextInSection }}
-  <span><a class="menu-item" href="{{ .Permalink }}"> | next &gt;</a></span>
+  <span><a class="menu-item" href="{{ .Permalink }}"><i class="fa fa-arrow-right" aria-hidden="true"></i></a></span>
   {{ end }}
   {{ end }}
-  <h4 class="text-center"><a class="menu-item" href="{{ .Site.BaseURL }}">home</a></h4>
+  <h4 class="text-center"><a class="menu-item" href="{{ .Site.BaseURL }}"><i class="fa fa-home" aria-hidden="true"></i></a></h4>
 </section>
