@@ -277,5 +277,7 @@ header.title
 code: not(.hljs)
 {
     color: #526d7a !important;
-    background-color: #f1f5f9;
+    background-color: #f1f5f9 !important;
 }
+
+
