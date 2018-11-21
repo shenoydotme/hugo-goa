@@ -105,18 +105,42 @@ These settings are included in the site's meta section.
 
 These settings to display your social accounts.
 
-- `github`: Your github username.
-- `instagram`: Your instagram username.
-- `xing`: Your xing username.
-- `linkedin`: Your linkedin username.
-- `twitter`: Your twitter username.
-- `facebook`: Your facebook username.
-- `google`: Your google username.
-- `medium`: Your medium username.
-- `devto`: Your dev.to username.
-- `stackoverflow`: Your stackoverflow username.
-- `angellist`: Your angellist username.
-- `email`: Your email.
+- `github`: Your [Github](https://github.com) username.
+- `instagram`: Your [Instagram](https://www.instagram.com) username.
+- `xing`: Your [Xing](https://www.xing.com) username.
+- `linkedin`: Your [Linkedin](https://www.linkedin.com) username.
+- `twitter`: Your [Twitter](https://twitter.com) username.
+- `facebook`: Your [Facebook](https://www.facebook.com) username.
+- `google`: Your [Google](https://www.google.com) username.
+- `medium`: Your [Medium](https://medium.com) username.
+- `devto`: Your [dev.to](https://dev.to) username.
+- `stackoverflow`: Your [StackOverflow](https://stackoverflow.com) username.
+- `angellist`: Your [AngelList](https://angel.co) username.
+- `lastfm`: Your [Last.fm](https://www.last.fm) username.
+- `goodreads`: Your [Goodreads](https://www.goodreads.com) username.
+- `gitlab`: Your [Gitlab](https://gitlab.com) username.
+- `bitbucket`: Your [BitBucket](https://bitbucket.org) username.
+- `fivehundredpx`: Your [500px](https://500px.com) username.
+- `flickr`: Your [Flickr](https://flickr.com) username.
+- `foursquare`: Your [Foursquare](https://foursquare.com) username.
+- `hackernews`: Your [Y Combinator Hackernews](https://news.ycombinator.com) username.
+- `kickstarter`: Your [Kickstarter](https://kickstarter.com) username.
+- `patreon`: Your [Patreon](https://patreon.com) username.
+- `pintrest`: Your [Pintrest](https://pintrest.com) username.
+- `steam`: Your [Steam](https://steamcommunity.com) username.
+- `reddit`: Your [Reddit](https://www.reddit.com) username.
+- `snapchat`: Your [Snapchat](https://snapchat.com) username.
+- `keybase`: Your [Keybase](https://keybase.io) username.
+- `twitch`: Your [Twitch](https://twitch.tv) username.
+- `youtube`: Your [YouTube](https://youtube.com) username.
+- `soundcloud`: Your [Soundcloud](https://soundcloud.com) username.
+- `tumblr`: Your [Tumblr](https://tumblr.com) username.
+- `skype`: Your [skype](https://skype.com) username.
+- `telegram`: Your [Telegram](https://telegram.com) username.
+- `whatsapp`: Your phone number.* Follow the steps [here](https://faq.whatsapp.com/en/26000030/).
+- `email`: Your email.*
+
+* `WARNING`: It is recommended to keep your private data (phone number/ email) private. Especially if you don't use them for business. Adding it to your public will expose your data to the public. This is irreversabile.
 
 ### Extras `[params.extra]`
 
