@@ -89,6 +89,9 @@
   {{ with .Site.Params.social.tumblr}}
   <a href="https://{{.}}.tumblr.com" aria-label="Tumblr" target="_blank"><i class="fab fa-tumblr" aria-hidden="true"></i></a>
   {{ end }}
+  {{ with .Site.Params.social.strava}}
+  <a href="https://www.strava.com/athletes/{{.}}" aria-label="Strava" target="_blank"><i class="fab fa-strava" aria-hidden="true"></i></a>
+  {{ end }}
   {{ with .Site.Params.social.skype}}
   <a href="skype:{{.}}" aria-label="Skype" target="_blank"><i class="fab fa-skype" aria-hidden="true"></i></a>
   {{ end }}
@@ -143,6 +146,7 @@
     {{ with .Site.Params.social.twitch}}"https://www.twitch.tv/{{.}}",{{ end }}
     {{ with .Site.Params.social.soundcloud}}"https://soundcloud.com/{{.}}",{{ end }}
     {{ with .Site.Params.social.tumblr}}"https://{{.}}.tumblr.com",{{ end }}
+    {{ with .Site.Params.social.strava}}"https://www.strava.com/athletes/{{.}}",{{ end }},
     "{{ .Site.Params.baseURL }}"
   ]
 }
