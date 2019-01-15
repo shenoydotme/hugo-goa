@@ -146,7 +146,7 @@ These settings to display your social accounts.
 
 These settings for extra features that this site uses.
 
-- `copyright`: Add a copyright statement to the bottom of the theme. eg. `© 2016. Erlich Bachman. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."`
+- `copyright`: Add a copyright statement to the bottom of the theme. eg. `© 2016. Erlich Bachman. [Some Rights Reserved](https://creativecommons.org/licenses/by/3.0/)."`
 - `rss`: Enable rss icon next to social accounts.
 - `poweredby`: Help promote this theme and give the authors credit. eg. `true` or `false`.
 - `highlightjs`: Use highlightJS to highlight code on your site. eg. `true` or `false`.
@@ -229,10 +229,10 @@ Example:
 
 The theme's design was inspired by many blogs and themes:
 
-1. Bruno de Carvalho's [blog](http://biasedbit.com).
-2. [Hugo Cocoa](http://themes.gohugo.io/cocoa/).
-3. [Hugo Vec](http://themes.gohugo.io/hugo-theme-vec/).
-4. [Hugo Agency](http://themes.gohugo.io/hugo-agency/).
+1. Bruno de Carvalho's [blog](https://biasedbit.com).
+2. [Hugo Cocoa](https://themes.gohugo.io/cocoa/).
+3. [Hugo Vec](https://themes.gohugo.io/hugo-theme-vec/).
+4. [Hugo Agency](https://themes.gohugo.io/hugo-agency/).
 
 ## License
 
