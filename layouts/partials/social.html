@@ -99,7 +99,7 @@
   <a href="https://wa.me/{{.}}" aria-label="Whatsapp" target="_blank"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
   {{ end }}
   {{ with .Site.Params.social.email }}
-  <a href="mailto:{{.}}" aria-label="Email" target="_blank"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+  <a href="mailto:{{.}}" aria-label="Email"><i class="fas fa-envelope" aria-hidden="true"></i></a>
   {{ end }}
   {{ if and ( .Site.Params.extra.rss ) ( .RSSLink ) }}
   <a href="{{ .RSSLink }}" aria-label="RSS" target="_blank"><i class="fas fa-rss" aria-hidden="true"></i></a>
