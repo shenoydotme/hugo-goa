@@ -135,6 +135,7 @@ These settings to display your social accounts.
 - `youtube`: Your [YouTube](https://youtube.com) username.
 - `soundcloud`: Your [Soundcloud](https://soundcloud.com) username.
 - `tumblr`: Your [Tumblr](https://tumblr.com) username.
+- `strava`: Your [Strava](https://strava.com) username.
 - `skype`: Your [skype](https://skype.com) username.
 - `telegram`: Your [Telegram](https://telegram.com) username.
 - `whatsapp`: Your phone number.* Follow the steps [here](https://faq.whatsapp.com/en/26000030/).
