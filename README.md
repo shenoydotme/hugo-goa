@@ -112,6 +112,7 @@ These settings to display your social accounts.
 - `twitter`: Your [Twitter](https://twitter.com) username.
 - `facebook`: Your [Facebook](https://www.facebook.com) username.
 - `google`: Your [Google](https://www.google.com) username.
+- `googlescholar`: Your [Google Scholar](https://scholar.google.com) account ID. [How to get this ID](#google-scholar)
 - `medium`: Your [Medium](https://medium.com) username.
 - `devto`: Your [dev.to](https://dev.to) username.
 - `stackoverflow`: Your [StackOverflow](https://stackoverflow.com) username.
@@ -138,10 +139,15 @@ These settings to display your social accounts.
 - `strava`: Your [Strava](https://strava.com) username.
 - `skype`: Your [skype](https://skype.com) username.
 - `telegram`: Your [Telegram](https://telegram.com) username.
-- `whatsapp`: Your phone number.* Follow the steps [here](https://faq.whatsapp.com/en/26000030/).
-- `email`: Your email.*
+- `whatsapp`: Your phone number. Follow the steps [here](https://faq.whatsapp.com/en/26000030/). [Privacy Warning](#privacy-warning)
+- `email`: Your email. [Privacy Warning](#privacy-warning)
 
-* `WARNING`: It is recommended to keep your private data (phone number/ email) private. Especially if you don't use them for business. Adding it to your public will expose your data to the public. This is irreversabile.
+#### Privacy Warning
+It is recommended to keep your private data (phone number/ email) private. Especially if you don't use them for business. Adding it to your public will expose your data to the public. This is irreversible.
+
+#### Account Details
+##### Google Scholar
+To get this ID, go to Google Scholar, press the "My Profile" tab at the top, then copy the text after the `user=` till the first subsequent `&` (e.g. the `ACCOUNT_ID` part in `https://scholar.google.com/citations?user=ACCOUNT_ID&hl=en`).
 
 ### Extras `[params.extra]`
 
