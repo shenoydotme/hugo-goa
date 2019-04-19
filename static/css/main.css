@@ -99,7 +99,7 @@ div.content
 {
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
-    color: #bbb;
+    color: #8b8b8b;
 }
 .error
 {
@@ -111,7 +111,7 @@ div.content
 {
     font-size: 80px;
 
-    color: #bbb;
+    color: #8b8b8b;
 }
 .error p
 {
@@ -132,7 +132,7 @@ div.content
 {
     margin-top: 10px;
 
-    color: #bbb;
+    color: #8b8b8b;
 }
 .header
 {
@@ -164,7 +164,7 @@ h4.description
 {
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
-    color: #bbb;
+    color: #8b8b8b;
 
 }
 .list
@@ -216,7 +216,7 @@ h4.description
     font-size: 12px;
     font-weight: 200;
 
-    color: #bbb;
+    color: #8b8b8b;
 }
 a.meta
 {
@@ -228,7 +228,7 @@ h6.meta
     font-size: 12px;
     font-weight: 200;
 
-    color: #bbb;
+    color: #8b8b8b;
 }
 section.meta {
     margin-top: 
@@ -280,4 +280,16 @@ code: not(.hljs)
     background-color: #f1f5f9 !important;
 }
 
-
+pre {
+    display: block;
+    padding: 9.5px;
+    margin: 0 0 10px;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #333;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: #3f3f3f;
+    border: 0px solid #ccc;
+    border-radius: 4px
+} 

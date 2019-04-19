@@ -3,7 +3,7 @@
   {{ with .Site.Params.extra }}
   <h6 class="text-center copyright">{{ .copyright | markdownify }}</h6>
   {{ if ne .poweredby false }}
-  <h6 class="text-center powered">Powered by <a href="https://gohugo.io/">Hugo</a> &amp; <a href="https://github.com/shenoybr/hugo-goa">Goa</a>.</h6>
+  <h6 class="text-center powered">Powered by <a href="https://gohugo.io/">Hugo v{{ hugo.Version }}</a>.</h6>
   {{ end }}
   {{ end }}
 </footer>
