@@ -73,6 +73,7 @@ copyright = "© 2016. Erlich Bachman. [Some Rights Reserved](http://creativecomm
 poweredby = true
 highlightjs = true
 socialmarkup = true
+toc = true
 
 ## Main Menu
 [[menu.main]]
