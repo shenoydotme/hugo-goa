@@ -12,7 +12,9 @@
 
 <base href="{{ .Site.BaseURL }}">
 
-<title>{{ .Site.Title }}</title>
+<title>
+{{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }} {{ if eq $url "" }} {{ .Site.Title }} {{ else }} {{ .Site.Title }} - {{ .Title }} {{ end }}
+</title>
 
 {{ hugo.Generator }}
 
