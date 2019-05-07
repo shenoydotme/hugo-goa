@@ -14,7 +14,7 @@
 
 <title>{{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }} {{ if eq $url "" }} {{ .Site.Title }} {{ else }} {{ .Site.Title }} - {{ .Title }} {{ end }}</title>
 
-{{ .Hugo.Generator }}
+{{ .hugo.Generator }}
 
 {{ range .AlternativeOutputFormats -}}
     <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
