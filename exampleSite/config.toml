@@ -74,6 +74,7 @@ poweredby = true
 highlightjs = true
 socialmarkup = true
 toc = true
+displayrssicon = true
 
 ## Main Menu
 [[menu.main]]
