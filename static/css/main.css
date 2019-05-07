@@ -10,6 +10,15 @@
 {
     width: device-width;
 }
+
+p a {
+    text-decoration: underline !important;
+}
+
+li a {
+    text-decoration: underline !important;
+}
+
 a,
 a:hover,
 a:visited,
@@ -32,6 +41,7 @@ body
 
     background-color: #fcfcfc;
 }
+
 html
 {
     position: relative;
@@ -63,6 +73,7 @@ html
 {
     font-family: 'Roboto Slab', serif;
     color: #526d7a !important;
+    margin-top: 50px;
 }
 .category
 {
@@ -86,7 +97,7 @@ div.content
     font-size: 18px;
     font-weight: 300;
 
-    color: #777;
+    color: #666;
 
 }
 .copyright
@@ -99,7 +110,7 @@ div.content
 {
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
-    color: #8b8b8b;
+    color: #666;
 }
 .error
 {
@@ -111,13 +122,13 @@ div.content
 {
     font-size: 80px;
 
-    color: #8b8b8b;
+    color: #666;
 }
 .error p
 {
     margin-top: 150px;
 
-    color: #777;
+    color: #666;
 }
 .excerpt
 {
@@ -132,7 +143,7 @@ div.content
 {
     margin-top: 10px;
 
-    color: #8b8b8b;
+    color: #666;
 }
 .header
 {
@@ -153,7 +164,7 @@ div.content
 {
     font-family: 'Roboto Slab', serif;
     font-weight: 200;
-    color: #777;
+    color: #666;
 }
 h3.intro
 {
@@ -164,7 +175,7 @@ h4.description
 {
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
-    color: #8b8b8b;
+    color: #666;
 
 }
 .list
@@ -216,7 +227,7 @@ h4.description
     font-size: 12px;
     font-weight: 200;
 
-    color: #8b8b8b;
+    color: #666;
 }
 a.meta
 {
@@ -228,7 +239,7 @@ h6.meta
     font-size: 12px;
     font-weight: 200;
 
-    color: #8b8b8b;
+    color: #666;
 }
 section.meta {
     margin-top: 
@@ -293,3 +304,4 @@ pre {
     border: 0px solid #ccc;
     border-radius: 4px
 } 
+
