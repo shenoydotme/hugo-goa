@@ -1,11 +1,19 @@
 <footer class="row text-center footer">
   <hr />
   {{ with .Site.Params.extra }}
+<<<<<<< HEAD
     <h6 class="text-center copyright">{{ .copyright | markdownify }}</h6>
     {{ if ne .poweredby false }}
         <h6 class="text-center powered">Powered by <a href="https://gohugo.io/">Hugo v{{ hugo.Version }}</a>.</h6>
     {{ end }}
     {{ if ne .displayrssicon false }}
+=======
+  <h6 class="text-center copyright">{{ .copyright | markdownify }}</h6>
+  {{ if ne .poweredby false }}
+  <h6 class="text-center powered">Powered by <a href="https://gohugo.io/">Hugo  v{{ hugo.Version }}</a> &amp; <a href="https://github.com/shenoybr/hugo-goa">Goa</a>.</h6>
+  {{ end }}
+      {{ if ne .displayrssicon false }}
+>>>>>>> b3bcfec3d77d819ccd4a61d9a0d5bed2162fc3ae
         <h6><a href="https://b4d.sablun.org/index.xml" aria-label="RSS Feed"><i class="fas fa-rss" aria-hidden="true"></i></a></h6>
     {{ end }}
   {{ end }}

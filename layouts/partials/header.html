@@ -12,11 +12,17 @@
 
 <base href="{{ .Site.BaseURL }}">
 
+<<<<<<< HEAD
 <title>
 {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }} {{ if eq $url "" }} {{ .Site.Title }} {{ else }} {{ .Site.Title }} - {{ .Title }} {{ end }}
 </title>
 
 {{ hugo.Generator }}
+=======
+<title>{{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }} {{ if eq $url "" }} {{ .Site.Title }} {{ else }} {{ .Site.Title }} - {{ .Title }} {{ end }}</title>
+
+{{ .hugo.Generator }}
+>>>>>>> b3bcfec3d77d819ccd4a61d9a0d5bed2162fc3ae
 
 {{ range .AlternativeOutputFormats -}}
     <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
@@ -28,10 +34,14 @@
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400|Roboto+Slab:400,700|Roboto:300,300i,400,400i,500,500i,700,700i">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<<<<<<< HEAD
 <!-- Old fontawesome version, obsolete now
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 -->
+=======
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+>>>>>>> b3bcfec3d77d819ccd4a61d9a0d5bed2162fc3ae
 <link rel="stylesheet" href="{{ "css/main.css" | absURL }}">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 

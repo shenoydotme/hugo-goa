@@ -110,7 +110,11 @@ div.content
 {
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
+<<<<<<< HEAD
     color: #666;
+=======
+    color: #8b8b8b;
+>>>>>>> b3bcfec3d77d819ccd4a61d9a0d5bed2162fc3ae
 }
 .error
 {
@@ -122,7 +126,11 @@ div.content
 {
     font-size: 80px;
 
+<<<<<<< HEAD
     color: #666;
+=======
+    color: #8b8b8b;
+>>>>>>> b3bcfec3d77d819ccd4a61d9a0d5bed2162fc3ae
 }
 .error p
 {
@@ -143,7 +151,11 @@ div.content
 {
     margin-top: 10px;
 
+<<<<<<< HEAD
     color: #666;
+=======
+    color: #8b8b8b;
+>>>>>>> b3bcfec3d77d819ccd4a61d9a0d5bed2162fc3ae
 }
 .header
 {
@@ -227,7 +239,11 @@ h4.description
     font-size: 12px;
     font-weight: 200;
 
+<<<<<<< HEAD
     color: #666;
+=======
+    color: #8b8b8b;
+>>>>>>> b3bcfec3d77d819ccd4a61d9a0d5bed2162fc3ae
 }
 a.meta
 {
@@ -239,10 +255,14 @@ h6.meta
     font-size: 12px;
     font-weight: 200;
 
+<<<<<<< HEAD
     color: #666;
+=======
+    color: #8b8b8b;
+>>>>>>> b3bcfec3d77d819ccd4a61d9a0d5bed2162fc3ae
 }
 section.meta {
-    margin-top: 
+    margin-top:
 }
 .powered
 {
@@ -285,6 +305,7 @@ header.title
         margin-top: 30px;
     }
 }
+<<<<<<< HEAD
 code: not(.hljs)
 {
     color: #526d7a !important;
@@ -305,3 +326,10 @@ pre {
     border-radius: 4px
 } 
 
+=======
+pre > code {
+    white-space: pre;
+    word-wrap: initial;
+    word-break: initial;
+}
+>>>>>>> b3bcfec3d77d819ccd4a61d9a0d5bed2162fc3ae

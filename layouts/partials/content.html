@@ -22,9 +22,15 @@
 </section>
 <section id="content-pane" class="row">
   <div class="col-md-12 text-justify content">
+<<<<<<< HEAD
       {{ if and ( ne .Params.toc false) (gt .WordCount 300 ) }}
       {{ .TableOfContents }}
       {{ end }}
+=======
+    {{ if and ( ne .Params.toc false) (gt .WordCount 300 ) }}
+    {{ .TableOfContents }}
+    {{ end }}
+>>>>>>> b3bcfec3d77d819ccd4a61d9a0d5bed2162fc3ae
     {{ .Content }}
       {{ if ne .Params.related false }}
       {{ partial "related.html" . }}  
