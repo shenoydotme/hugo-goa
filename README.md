@@ -230,7 +230,7 @@ Example:
 
 The theme's design was inspired by many blogs and themes:
 
-1. Bruno de Carvalho's [blog](https://biasedbit.com).
+1. Bruno de Carvalho's [blog](http://biasedbit.com).
 2. [Hugo Cocoa](https://themes.gohugo.io/cocoa/).
 3. [Hugo Vec](https://themes.gohugo.io/hugo-theme-vec/).
 4. [Hugo Agency](https://themes.gohugo.io/agency/).
