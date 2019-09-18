@@ -133,7 +133,7 @@ These settings to display your social accounts.
 - `snapchat`: Your [Snapchat](https://snapchat.com) username.
 - `keybase`: Your [Keybase](https://keybase.io) username.
 - `twitch`: Your [Twitch](https://twitch.tv) username.
-- `youtube`: Your [YouTube](https://youtube.com) username.
+- `youtube`: Your [YouTube](https://youtube.com) channel ID.
 - `soundcloud`: Your [Soundcloud](https://soundcloud.com) username.
 - `tumblr`: Your [Tumblr](https://tumblr.com) username.
 - `strava`: Your [Strava](https://strava.com) username.
