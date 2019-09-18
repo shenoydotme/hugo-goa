@@ -168,7 +168,7 @@ These settings for the main menu that is displayed on the home page.
 - `url`: Root URL for this section/page. eg. `/blog/`.
 
 Example:
-```
+```toml
 [[menu.main]]
     name = "blog"
     weight = 100
@@ -188,8 +188,8 @@ Example:
 * Responsive
 * Minimalist
 * Bootstrap 3
-* Fontawesome
-* HighlighJS
+* Font Awesome
+* HighlightJS
 * Disqus support for commenting
 * Built-in support for 404 pages, Disqus comments and Google Analytics.
 
