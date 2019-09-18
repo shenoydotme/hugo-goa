@@ -12,9 +12,11 @@
 
 <base href="{{ .Site.BaseURL }}">
 
-<title>{{ .Site.Title }}</title>
+<title>
+{{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }} {{ if eq $url "" }} {{ .Site.Title }} {{ else }} {{ .Site.Title }} - {{ .Title }} {{ end }}
+</title>
 
-{{ .Hugo.Generator }}
+{{ hugo.Generator }}
 
 {{ range .AlternativeOutputFormats -}}
     <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
@@ -26,8 +28,9 @@
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400|Roboto+Slab:400,700|Roboto:300,300i,400,400i,500,500i,700,700i">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 <link rel="stylesheet" href="{{ "css/main.css" | absURL }}">
+<link rel="stylesheet" href="{{ "css/custom.css" | absURL }}">
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]>
