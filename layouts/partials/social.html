@@ -9,7 +9,7 @@
   <a href="https://scholar.google.com/citations?user={{.}}" aria-label="Google Scholar" target="_blank"><i class="fas fa-graduation-cap" aria-hidden="true"></i></a>
   {{ end }}
   {{ with .Site.Params.social.goodreads }}
-  <a href="https://www.goodreads.com/user/show/{{.}}" aria-label="Goodreads" target="_blank"><i class="fab fa-goodreads" aria-hidden="true"></i></a>
+  <a href="https://www.goodreads.com/{{.}}" aria-label="Goodreads" target="_blank"><i class="fab fa-goodreads" aria-hidden="true"></i></a>
   {{ end }}
   {{ with .Site.Params.social.lastfm }}
   <a href="https://www.last.fm/user/{{.}}/" aria-label="Last.fm" target="_blank"><i class="fab fa-lastfm" aria-hidden="true"></i></a>
@@ -106,6 +106,9 @@
   {{ end }}
   {{ with .Site.Params.social.email }}
   <a href="mailto:{{.}}" aria-label="Email"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+  {{ end }}
+  {{ with .Site.Params.social.pgp }}
+  <a href="/{{.}}.txt" aria-label="PGP" name="{{.}}"><i class="fas fa-key" aria-hidden="true"></i></a>
   {{ end }}
   {{ if and ( .Site.Params.extra.rss ) ( .RSSLink ) }}
   <a href="{{ .RSSLink }}" aria-label="RSS" target="_blank"><i class="fas fa-rss" aria-hidden="true"></i></a>

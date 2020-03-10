@@ -67,6 +67,7 @@ skype = "<username>"
 telegram = "<username>"
 whatsapp = "<username>"
 email = "you@example.com"
+pgp = "<key_fingerprint>"
 
 ## Extras
 [params.extra]

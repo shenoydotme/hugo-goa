@@ -141,6 +141,7 @@ These settings to display your social accounts.
 - `telegram`: Your [Telegram](https://telegram.com) username.
 - `whatsapp`: Your phone number. Follow the steps [here](https://faq.whatsapp.com/en/26000030/). [Privacy Warning](#privacy-warning)
 - `email`: Your email. [Privacy Warning](#privacy-warning)
+- `pgp`: Your PGP key. The value should be set to the key fingerprint, and the public key should pe placed in static/key_fingerprint.txt
 
 #### Privacy Warning
 It is recommended to keep your private data (phone number/ email) private. Especially if you don't use them for business. Adding it to your public will expose your data to the public. This is irreversible.
