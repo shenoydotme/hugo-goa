@@ -1,8 +1,5 @@
 <footer class="row text-center footer">
   <hr />
-  {{ with .Site.Params.extra }}
-  <h6 class="text-center copyright">{{ .copyright | markdownify }}</h6>
-  {{ if ne .poweredby false }}
   <h6 class="text-center powered">
     Powered by <a href="https://gohugo.io/">
       Hugo  {{ .Version }}
@@ -14,6 +11,4 @@
       <img src="https://www.netlify.com/img/global/badges/netlify-color-bg.svg" alt="Deploys by Netlify" />
     </a>
   </h6>
- 
-  {{ end }}
-</footer>
+ </footer>
