@@ -2,7 +2,7 @@
   <ul >
     {{ range .Data.Pages.ByPublishDate.Reverse }}
     <li class="list-entry">
-      <a class="list-entry-link" href="{{ .Permalink }}">{{ .Title }}</a>
+      <a class="list-entry-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
       <p class="meta">
         {{ if not .Date.IsZero }} {{ .Date.Format .Site.Params.dateformat | upper }} {{end}}
         <span class="category">
