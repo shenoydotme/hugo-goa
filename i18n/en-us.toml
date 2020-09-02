@@ -18,3 +18,15 @@ other  = "next"
 
 [prev]
 other = "prev"
+
+[yourName]
+other = "Your name"
+
+[emailAddress]
+other = "Email address"
+
+[message]
+other = "Message"
+
+[send]
+other = "send"

@@ -18,3 +18,15 @@ other  = "neste"
 
 [prev]
 other = "forrige"
+
+[yourName]
+other = "Ditt navn"
+
+[emailAddress]
+other = "E-postadresse"
+
+[message]
+other = "beskjed"
+
+[send]
+other = "Sende"
