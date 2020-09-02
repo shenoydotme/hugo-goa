@@ -1,0 +1,20 @@
+[authorimage]
+other = "Forfatter bilde"
+
+[published]
+other = "Publisert {{ .Date.Format .Site.Params.dateformat }}"
+
+[error-404]
+other = "Unnskyld! Siden du leter etter er enten flyttet eller eksisterer ikke lenger. Klikk <a href=\"/\">her</a> for å gå tilbake til forsiden."
+
+[poweredby]
+other = "Drevet av"
+
+[home]
+other = "hjem"
+
+[next]
+other  = "neste"
+
+[prev]
+other = "forrige"

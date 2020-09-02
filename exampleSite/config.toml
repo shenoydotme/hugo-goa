@@ -19,6 +19,25 @@ disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disa
 googleAnalytics = "XYZ"
 enableRobotsTXT = true
 
+## Language settings
+DefaultContentLanguage = "en-us"
+
+[languages]
+  [languages.en-us]
+    contentDir = "content/"
+    title = "My blog"
+    weight = 10
+  [languages.no-nb]
+    contentDir = "content/no-nb"
+    title = "Min Blog"
+    weight = 20
+    [languages.no-nb.params]
+      dateformat = "2 Jan, 2006"
+      author = "Erlich Bachman"
+      intro = "Grynder Guru Ekstraordinær"
+      description = "No @Pied Piper. Tidligere @Hacker Hostel, @Bachmanity og @Aviato. <br/> \"Hva er F gange 5? Det er Fleventy-five.\""
+
+
 ## Site Settings
 [params]
 author = "Erlich Bachman"
@@ -90,6 +109,22 @@ displayrssicon = true
     weight = 200
     url = "/about/"
 [[menu.main]]
+    name = "coderag"
+    identifier = "coderag"
+    weight = 300
+    url = "/coderag/"
+
+[[languages.no-nb.menu.main]]
+    name = "blogg"
+    weight = 100
+    identifier = "blog"
+    url = "/blog/"
+[[languages.no-nb.menu.main]]
+    name = "about"
+    identifier = "about"
+    weight = 200
+    url = "/about/"
+[[languages.no-nb.menu.main]]
     name = "coderag"
     identifier = "coderag"
     weight = 300
