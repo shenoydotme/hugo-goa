@@ -1,7 +1,7 @@
-<header class="row text-left title">
+<header class="text-left title">
   <h1 class="title">{{ .Title }}</h1>
 </header>
-<section id="category-pane" class="row meta">
+<section id="category-pane" class="meta">
   {{ if ne .Params.showpagemeta false }}
   <div class="col-md-12">
     <h6 class="text-left meta">
@@ -20,7 +20,7 @@
   </div>
   {{ end }}
 </section>
-<section id="content-pane" class="row">
+<section id="content-pane" class="">
   <div class="col-md-12 text-justify content">
     {{ if and ( ne .Params.toc false) (gt .WordCount 300 ) }}
     {{ .TableOfContents }}
@@ -28,7 +28,7 @@
     {{ .Content }}
   </div>
 </section>
-<section id="tag-pane" class="row meta">
+<section id="tag-pane" class="meta">
   {{ if ne .Params.showpagemeta false }}
   <div class="col-md-12">
     <h6 class="text-right meta">
