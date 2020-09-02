@@ -22,6 +22,9 @@ other = "forrige"
 [yourName]
 other = "Ditt navn"
 
+[phoneNumber]
+other = "Telefone number"
+
 [emailAddress]
 other = "E-postadresse"
 

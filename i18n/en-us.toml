@@ -22,6 +22,9 @@ other = "prev"
 [yourName]
 other = "Your name"
 
+[phoneNumber]
+other = "Phone number"
+
 [emailAddress]
 other = "Email address"
 
