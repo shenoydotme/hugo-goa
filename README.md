@@ -39,12 +39,11 @@ or
 hugo new posts/first.md
 ````
 
-You can now go ahead an edit the newly created file under the `content` directory. Once you are finished editing, to have hugo generate the page, set `draft = false` in the articles front matter.
+You can now go ahead and edit the newly created file under the `content` directory. Once you are finished editing, to have hugo generate the page, set `draft = false` in the articles front matter.
 
 ### Organizing pages
 
-The above example demonstrates how to create a pages and posts. Hugo automatically applies the list templates for a directory of pages/posts, which works well for blogs and posts. However, you may want at times want to override this behavior and create a standalone page (like an about page or projects page) or have more control of what content is listed from within the directory. In such cases, you can override the default behavior by placing an index.md file in the corresponding content
-directory.
+The above example demonstrates how to create pages and posts. Hugo automatically applies the list templates for a directory of pages/posts, which works well for blogs and posts. However, you may want at times to override this behavior and create a standalone page (like an about page or projects page) or have more control of what content is listed from within the directory. In such cases, you can override the default behavior by placing an index.md file in the corresponding content directory.
 
 ````
 hugo new projects/index.md
@@ -55,7 +54,7 @@ hugo new projects/index.md
 These settings are at the page level.
 
 - `showpagemeta`: default=`true`. This allows you to disable page meta information from being displayed. For example, this setting is disabled [here](https://shenoybr.github.io/hugo-goa-demo/about/) and enabled [here](https://shenoybr.github.io/hugo-goa-demo/coderag/).
-- `showcomments`: default=`true`. Enables or disable comments. For example, this setting is disabled [here](https://shenoybr.github.io/hugo-goa-demo/blog/third/) and enabled [here](https://shenoybr.github.io/hugo-goa-demo/blog/first/).
+- `showcomments`: default=`true`. Enables or disables comments. For example, this setting is disabled [here](https://shenoybr.github.io/hugo-goa-demo/blog/third/) and enabled [here](https://shenoybr.github.io/hugo-goa-demo/blog/first/).
 
 ## Configuration
 
@@ -66,7 +65,7 @@ The provided [config.toml](https://github.com/shenoybr/hugo-goa/blob/master/exam
 These are site wide configuration parameters that are used by this template.
 
 - `baseurl`: This is the root of your site.
-- `builddrafts`: default=`false`. Enables or Disable building drafts when hugo is run.
+- `builddrafts`: default=`false`. Enables or Disables building drafts when hugo is run.
 - `canonifyurls`: default=`false`. Prefix all relative URLs with your base URL. [More Information](https://gohugo.io/extras/urls#canonicalization).
 - `languageCode`: Used to set site localization preferences. eg. `en-US`.
 - `contentdir`: Where hugo can find your content. eg. `content`.
@@ -78,10 +77,10 @@ These are site wide configuration parameters that are used by this template.
 
 ## Hugo Built-in Features
 
-These are features that hugo provides and are used by this template.
+These are the features that hugo provides and are used by this template.
 
-- `disqusShortname`: Your discusShortname if you want to enable comments on your posts.
-- `googleAnalytics`: Your google analytics id for tracking.
+- `disqusShortname`: Your discusShortname if you want to enable Disqus comments on your posts.
+- `googleAnalytics`: Your Google analytics id for tracking.
 - `enableRobotsTXT`: Enable or disable search engines from crawling your site.
 
 ## Site Settings `[params]`
@@ -98,12 +97,12 @@ These are settings that are specific to this theme.
 
 These settings are included in the site's meta section.
 
-- `description`: User this field to describe your site to search engines. eg. `Simple minimalist theme`.
+- `description`: Use this field to describe your site to search engines. eg. `Simple minimalist theme`.
 - `keywords`: Keywords that desribe your site. eg. `minimalist,blog,goa,hugo,developer`.
 
 ### Social Accounts `[params.social]`
 
-These settings to display your social accounts.
+These settings display your social accounts.
 
 - `github`: Your [Github](https://github.com) username.
 - `instagram`: Your [Instagram](https://www.instagram.com) username.
@@ -152,7 +151,7 @@ To get this ID, go to Google Scholar, press the "My Profile" tab at the top, the
 
 ### Extras `[params.extra]`
 
-These settings for extra features that this site uses.
+These settings are for extra features that this site uses.
 
 - `copyright`: Add a copyright statement to the bottom of the theme. eg. `© 2016. Erlich Bachman. [Some Rights Reserved](https://creativecommons.org/licenses/by/3.0/)."`
 - `rss`: Enable rss icon next to social accounts.
@@ -229,7 +228,7 @@ Example:
 3. Make sure your code follows the style of the project.
 4. Test it thoroughly.
 5. Open a PR requesting for it to be merged.
-6. Describe the feature or issue your are solving in detail.
+6. Describe the feature or issue you are solving in detail.
 7. Wait for its approval.
 8. Merge and Rejoice.
 
