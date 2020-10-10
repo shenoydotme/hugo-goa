@@ -12,7 +12,7 @@
         —
         {{ $total := sub $total 1 }}
         {{ range $i, $cat := sort .Params.categories }}
-        <a class="category" href="{{ "/categories/" | relURL }}{{ $cat | humanize | urlize }}">{{ $cat | upper }}</a>{{ if lt $i $total }}, {{ end }}
+        <a class="category" href="{{ "/categories/" | relLangURL }}{{ $cat | humanize | urlize }}">{{ $cat | upper }}</a>{{ if lt $i $total }}, {{ end }}
         {{ end }}
         {{ end }}
         {{ end }}

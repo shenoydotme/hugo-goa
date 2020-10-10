@@ -1,0 +1,19 @@
+<form  accept-charset="UTF-8" action="{{ .Get "action" }}" method="POST" role="form">
+  <div class="form-group">
+    <label for="name">{{ i18n "yourName" }}</label>
+    <input type="text" id="name" name="name" class="form-control" placeholder="" aria-labelledby="name" required/>
+  </div>
+  <div class="form-group">
+    <label for="phone">{{ i18n "phoneNumber"}}</label>
+    <input type="text" id="phone" name="phone" class="form-control" placeholder="" aria-labelledby="">
+  </div>
+  <div class="form-group">
+    <label for="email">{{ i18n "emailAddress" }}</label>
+    <input type="email" id="email" name="email" class="form-control" placeholder=""  aria-labelledby="email" required/>
+  </div>
+  <div class="form-group">
+    <label for="message">{{ i18n "message" }}</label>
+    <textarea name="message" id="message" class="form-control" placeholder="" aria-labelledby="message" required></textarea>
+  </div>
+  <button type="submit" class="btn btn-dark form-control">{{ i18n "send" }}</button>
+</form>

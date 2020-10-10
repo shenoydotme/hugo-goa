@@ -1,0 +1,35 @@
+[authorimage]
+other = "Author image"
+
+[published]
+other = "published on {{ .Date.Format .Site.Params.dateformat }}"
+
+[error-404]
+other = "Sorry! That page does not exist. It may have been removed or moved to a new section on the site. Click <a href=\"/\">here</a> go back to the home page."
+
+[poweredby]
+other = "Powerd by "
+
+[home]
+other = "home"
+
+[next]
+other  = "next"
+
+[prev]
+other = "prev"
+
+[yourName]
+other = "Your name"
+
+[phoneNumber]
+other = "Phone number"
+
+[emailAddress]
+other = "Email address"
+
+[message]
+other = "Message"
+
+[send]
+other = "send"
