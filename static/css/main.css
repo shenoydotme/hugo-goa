@@ -232,6 +232,8 @@ section.meta {
 .social a
 {
     color: #526d7a;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 .title
 {
