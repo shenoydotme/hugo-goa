@@ -110,8 +110,8 @@
   {{ with .Site.Params.social.pgp }}
   <a href="/{{.}}.txt" aria-label="PGP" name="{{.}}"><i class="fas fa-key" aria-hidden="true"></i></a>
   {{ end }}
-  {{ if and ( .Site.Params.extra.rss ) ( .RSSLink ) }}
-  <a href="{{ .RSSLink }}" aria-label="RSS" target="_blank"><i class="fas fa-rss" aria-hidden="true"></i></a>
+  {{ if and ( .OutputFormats.Get "RSS" ) ( .RelPermalink ) }}
+  <a href="{{ .RelPermalink }}" aria-label="RSS" target="_blank"><i class="fas fa-rss" aria-hidden="true"></i></a>
   {{ end }}
 </section>
 {{ if .Site.Params.extra.socialmarkup }}
