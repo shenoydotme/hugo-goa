@@ -11,13 +11,13 @@ other = "Unnskyld! Siden du leter etter er enten flyttet eller eksisterer ikke l
 other = "Drevet av"
 
 [home]
-other = "hjem"
+other = "Hjem"
 
 [next]
-other  = "neste"
+other  = "Neste"
 
 [prev]
-other = "forrige"
+other = "Forrige"
 
 [yourName]
 other = "Ditt navn"
@@ -29,7 +29,7 @@ other = "Telefon nummer"
 other = "E-postadresse"
 
 [message]
-other = "beskjed"
+other = "Beskjed"
 
 [send]
 other = "Sende"
