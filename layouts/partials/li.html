@@ -5,6 +5,7 @@
       <a class="list-entry-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
       <p class="meta">
         {{ if not .Date.IsZero }} {{ .Date.Format .Site.Params.dateformat | upper }} {{end}}
+	- {{ math.Round (div (countwords .Content) 220.0) }} MIN READ 
         <span class="category">
         {{ if isset .Params "categories" }}
         {{ $total := len .Params.categories }}
