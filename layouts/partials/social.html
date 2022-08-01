@@ -106,6 +106,8 @@
   {{ end }}
   {{ with .Site.Params.social.buymeacoffee}}
   <a href="https://www.buymeacoffee.com//{{.}}" aria-label="Buymeacoffee" target="_blank"><i class="fas fa-coffee" aria-hidden="true"></i></a>
+  {{ with .Site.Params.social.kaggle}}
+  <a href="https://kaggle.com/{{.}}" aria-label="Kaggle" target="_blank"><i class="fab fa-kaggle" aria-hidden="true"></i></a>
   {{ end }}
   {{ with .Site.Params.social.email }}
   <a href="mailto:{{.}}" aria-label="Email"><i class="fas fa-envelope" aria-hidden="true"></i></a>
@@ -158,6 +160,7 @@
     {{ with .Site.Params.social.tumblr}}"https://{{.}}.tumblr.com",{{ end }}
     {{ with .Site.Params.social.strava}}"https://www.strava.com/athletes/{{.}}",{{ end }}
     {{ with .Site.Params.social.buymeacoffee}}"https://www.buymeacoffee.com//{{.}}",{{ end }}
+    {{ with .Site.Params.social.kaggle}}"https://www.kaggle.com/{{.}}",{{ end }}
     "{{ .Site.Params.baseURL }}"
   ]
 }

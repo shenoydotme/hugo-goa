@@ -67,6 +67,7 @@ skype = "<username>"
 telegram = "<username>"
 whatsapp = "<username>"
 buymeacoffee = "<username>"
+kaggle = "<username>"
 email = "you@example.com"
 pgp = "<key_fingerprint>"
 

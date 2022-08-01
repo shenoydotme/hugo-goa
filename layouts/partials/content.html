@@ -6,6 +6,7 @@
   <div class="col-md-12">
     <h6 class="text-left meta">
        {{ if not .Date.IsZero }} PUBLISHED ON {{ .Date.Format .Site.Params.dateformat | upper }} {{end}}
+       / {{ math.Round (div (countwords .Content) 220.0) }} MIN READ
       {{ if isset .Params "categories" }}
       {{ $total := len .Params.categories }}
       {{ if gt $total 0 }}
