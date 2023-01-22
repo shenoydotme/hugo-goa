@@ -8,6 +8,9 @@
   {{ with .Site.Params.social.googlescholar}}
   <a href="https://scholar.google.com/citations?user={{.}}" aria-label="Google Scholar" target="_blank"><i class="fas fa-graduation-cap" aria-hidden="true"></i></a>
   {{ end }}
+  {{ with .Site.Params.social.orcid}}
+  <a href="https://orcid.org/{{.}}" aria-label="ORCID" target="_blank"><i class="fab fa-orcid" aria-hidden="true"></i></a>
+  {{ end }}
   {{ with .Site.Params.social.goodreads }}
   <a href="https://www.goodreads.com/{{.}}" aria-label="Goodreads" target="_blank"><i class="fab fa-goodreads" aria-hidden="true"></i></a>
   {{ end }}
@@ -130,7 +133,8 @@
   "sameAs": [
     {{ with .Site.Params.social.twitter }}"https://twitter.com/{{.}}",{{ end }}
     {{ with .Site.Params.social.google }}"https://plus.google.com/{{.}}/about",{{ end }}
-    {{ with .Site.Params.social.googlescholar}}"https://scholar.google.com/citations?user={{.}}"{{ end }}
+    {{ with .Site.Params.social.googlescholar}}"https://scholar.google.com/citations?user={{.}}",{{ end }}
+    {{ with .Site.Params.social.orcid}}"https://orcid.org/{{.}}",{{ end }}
     {{ with .Site.Params.social.goodreads }}"https://www.goodreads.com/user/show/{{.}}",{{ end }}
     {{ with .Site.Params.social.lastfm }}"https://www.last.fm/user/{{.}}/",{{ end }}
     {{ with .Site.Params.social.facebook }}"https://facebook.com/{{.}}",{{ end }}
