@@ -5,14 +5,14 @@ Goa is a clean, simple and minimalist theme for blogs and personal websites.
 
 <img src="https://i.imgur.com/vqMd1Mx.png" width="40%" height="40%" />
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://raw.githubusercontent.com/shenoybr/hugo-goa/master/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/shenoybr/hugo-goa.svg?style=flat-square)](https://github.com/shenoybr/hugo-goa/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/shenoybr/hugo-goa.svg?style=flat-square)](https://github.com/shenoybr/hugo-goa/network)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://raw.githubusercontent.com/kaapiandcode/hugo-goa/master/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/kaapiandcode/hugo-goa.svg?style=flat-square)](https://github.com/kaapiandcode/hugo-goa/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/kaapiandcode/hugo-goa.svg?style=flat-square)](https://github.com/kaapiandcode/hugo-goa/network)
 [![quality badge](https://img.shields.io/badge/cuteness-overload-blue.svg?style=flat-square)](https://www.emergencykitten.com/)
-[![Twitter](https://img.shields.io/twitter/url/https/github.com/shenoybr/hugo-goa.svg?style=social&style=flat-square)](https://twitter.com/intent/tweet?text=Wow:&url=%5Bobject%20Object%5D)
+[![Twitter](https://img.shields.io/twitter/url/https/github.com/kaapiandcode/hugo-goa.svg?style=social&style=flat-square)](https://twitter.com/intent/tweet?text=Wow:&url=%5Bobject%20Object%5D)
 ## Demo
 
-You can find the demo site in action [here](https://shenoybr.github.io/hugo-goa-demo) and the source [here](https://github.com/shenoybr/hugo-goa-demo).
+You can find the demo site in action [here](https://kaapiandcode.github.io/hugo-goa-demo) and the source [here](https://github.com/kaapiandcode/hugo-goa-demo).
 
 ## Installation
 
@@ -21,7 +21,7 @@ From the root of your blog:
 ```
 mkdir -p themes
 cd themes
-git clone https://github.com/shenoybr/hugo-goa
+git clone https://github.com/kaapiandcode/hugo-goa
 ```
 
 ## Content creation
@@ -54,12 +54,12 @@ hugo new projects/index.md
 
 These settings are at the page level.
 
-- `showpagemeta`: default=`true`. This allows you to disable page meta information from being displayed. For example, this setting is disabled [here](https://shenoybr.github.io/hugo-goa-demo/about/) and enabled [here](https://shenoybr.github.io/hugo-goa-demo/coderag/).
-- `showcomments`: default=`true`. Enables or disable comments. For example, this setting is disabled [here](https://shenoybr.github.io/hugo-goa-demo/blog/third/) and enabled [here](https://shenoybr.github.io/hugo-goa-demo/blog/first/).
+- `showpagemeta`: default=`true`. This allows you to disable page meta information from being displayed. For example, this setting is disabled [here](https://kaapiandcode.github.io/hugo-goa-demo/about/) and enabled [here](https://kaapiandcode.github.io/hugo-goa-demo/coderag/).
+- `showcomments`: default=`true`. Enables or disable comments. For example, this setting is disabled [here](https://kaapiandcode.github.io/hugo-goa-demo/blog/third/) and enabled [here](https://kaapiandcode.github.io/hugo-goa-demo/blog/first/).
 
 ## Configuration
 
-The provided [config.toml](https://github.com/shenoybr/hugo-goa/blob/master/exampleSite/config.toml) describes all options and features that are supported. Configure it your way!
+The provided [config.toml](https://github.com/kaapiandcode/hugo-goa/blob/master/exampleSite/config.toml) describes all options and features that are supported. Configure it your way!
 
 ### Basic Configuration
 
@@ -244,4 +244,4 @@ The theme's design was inspired by many blogs and themes:
 
 ## License
 
-Licensed under the [MIT](https://opensource.org/licenses/MIT) License. See the [LICENSE](https://raw.githubusercontent.com/shenoybr/hugo-goa/master/LICENSE) file for more details.
+Licensed under the [MIT](https://opensource.org/licenses/MIT) License. See the [LICENSE](https://raw.githubusercontent.com/kaapiandcode/hugo-goa/master/LICENSE) file for more details.
