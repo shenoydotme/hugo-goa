@@ -69,6 +69,7 @@ telegram = "<username>"
 whatsapp = "<username>"
 buymeacoffee = "<username>"
 kaggle = "<username>"
+holopin = "<username>"
 email = "you@example.com"
 pgp = "<key_fingerprint>"
 

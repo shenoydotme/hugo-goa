@@ -139,6 +139,7 @@ These settings to display your social accounts.
 - `strava`: Your [Strava](https://strava.com) username.
 - `skype`: Your [skype](https://skype.com) username.
 - `telegram`: Your [Telegram](https://telegram.com) username.
+- `holopin`: Your [Holopin](https://www.holopin.io) username.
 - `whatsapp`: Your phone number. Follow the steps [here](https://faq.whatsapp.com/en/26000030/). [Privacy Warning](#privacy-warning)
 - `email`: Your email. [Privacy Warning](#privacy-warning)
 - `pgp`: Your PGP key. The value should be set to the key fingerprint, and the public key should pe placed in static/key_fingerprint.txt
