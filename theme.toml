@@ -5,8 +5,9 @@ description = "Simple Minimalist Hugo Theme"
 homepage = "https://github.com/kaapiandcode/hugo-goa"
 tags = ["Roboto", "Lato", "Roboto Slab", "bootstrap", "font awesome", "minimal", "clean"]
 features = ["blog", "pages", "minimal", "responsive", "404", "icons", "disqus", "anlaytics"]
-min_version = 0.16
+min_version = "v0.112.0"
 
 [author]
   name = "Rajesh Shenoy"
-  homepage = "https://github.com/kaapiandcode"
+  homepage = "https://kaapiandco.de"
+

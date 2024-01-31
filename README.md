@@ -1,4 +1,3 @@
-
 # Goa
 
 Goa is a clean, simple and minimalist theme for blogs and personal websites.
@@ -9,52 +8,122 @@ Goa is a clean, simple and minimalist theme for blogs and personal websites.
 [![GitHub stars](https://img.shields.io/github/stars/kaapiandcode/hugo-goa.svg?style=flat-square)](https://github.com/kaapiandcode/hugo-goa/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/kaapiandcode/hugo-goa.svg?style=flat-square)](https://github.com/kaapiandcode/hugo-goa/network)
 [![quality badge](https://img.shields.io/badge/cuteness-overload-blue.svg?style=flat-square)](https://www.emergencykitten.com/)
-[![Twitter](https://img.shields.io/twitter/url/https/github.com/kaapiandcode/hugo-goa.svg?style=social&style=flat-square)](https://twitter.com/intent/tweet?text=Wow:&url=%5Bobject%20Object%5D)
+[![quality badge](https://img.shields.io/badge/quality-awesome-green.svg?style=flat-square)](https://www.emergencykitten.com/)
+
 ## Demo
 
 You can find the demo site in action [here](https://kaapiandcode.github.io/hugo-goa-demo) and the source [here](https://github.com/kaapiandcode/hugo-goa-demo).
 
 ## Installation
 
-From the root of your blog:
-
 ```
-mkdir -p themes
-cd themes
-git clone https://github.com/kaapiandcode/hugo-goa
+hugo new site quickstart
+cd quickstart
+git init
+git submodule add https://github.com/kaapiandcode/hugo-goa.git themes/hugo-goa
+echo "theme = 'hugo-goa'" >> hugo.toml
+hugo server
 ```
 
 ## Content creation
 
-### Creating a post
+### Creating a Post
 
-To create a new page or post:
+To create a new page or post in Hugo, follow these steps:
 
-````
-hugo new about.md
-````
+#### Create a New Post
+
+Use the following Hugo command to create a new post. This will create a Markdown file for your post in the specified directory.
+
+```bash
+hugo new content posts/my-first-post.md
+```
+
+#### Edit the Post
+
+After creating the post, you can go ahead and edit the newly created file. You'll find it under the `content/posts` directory in your Hugo site's content folder.
+
+#### Preview Your Edits
+
+To preview your edits in real-time, you can run the Hugo server with draft posts included. You can use either of these commands:
+
+```bash
+hugo server --buildDrafts
+```
+
 or
 
-````
-hugo new posts/first.md
-````
+```bash
+hugo server -D
+```
 
-You can now go ahead an edit the newly created file under the `content` directory. Once you are finished editing, to have hugo generate the page, set `draft = false` in the articles front matter.
+#### Publishing Your Post
+
+Once you have finished editing and are ready to publish your post, set `draft = false` in the article's front matter. This step is crucial to ensure that Hugo includes your post in the generated site.
+
+Remember, until you set `draft = false`, Hugo will treat the post as a draft, and it won't appear in your published site unless you use the `-D` or `--buildDrafts` flags with `hugo server`.
 
 ### Organizing pages
 
-The above example demonstrates how to create a pages and posts. Hugo automatically applies the list templates for a directory of pages/posts, which works well for blogs and posts. However, you may want at times want to override this behavior and create a standalone page (like an about page or projects page) or have more control of what content is listed from within the directory. In such cases, you can override the default behavior by placing an index.md file in the corresponding content
-directory.
+To create standalone pages in Hugo, such as an "About" page or a "Projects" page, you can indeed override the default list behavior by adding an index.md file in the corresponding content directory. This approach allows for more control over the content and presentation of these specific pages, setting them apart from regular blog posts or list pages.
 
-````
+#### Create the Directory and index.md File:
+
+To create a new standalone page, like a "Projects" page, you need to first create an index.md file in the appropriate directory. Use the Hugo command to do this:
+
+```bash
 hugo new projects/index.md
-````
+```
+
+This command will create a new directory named projects inside the content folder of your Hugo site and then create an index.md file inside this projects directory.
+
+#### Edit the index.md File:
+
+Open the newly created index.md file in your text editor. This file will act as the main content file for your standalone page. Here, you can add the content for your "Projects" page.
+
+#### Customize the Front Matter:
+
+At the top of the index.md file, you will find the front matter, which is used by Hugo to store metadata about the page. You can customize this front matter as needed for your page.
+
+#### Apply Custom Layouts (Optional):
+
+If you want to apply a custom layout to this page, you can create a new layout file in the layouts directory of your Hugo site. For example, you might create a layout specifically for the projects page. Then, reference this custom layout in the front matter of your index.md file.
+
+#### Build Your Site:
+
+After setting up your index.md file and any custom layouts, run the Hugo command to build your site:
+
+```
+hugo --cleanDestinationDir
+```
+
+This will generate the static files for your site, including your new standalone page, in the public directory.
+
+Remember, the index.md file in a directory allows you to create a standalone page with its own content and layout, different from the auto-generated list pages for blog posts or other content types. This method provides flexibility in organizing and presenting different types of content on your Hugo site.
+
+### Publish the site
+
+To publish your site using Hugo without deploying it, you need to run a specific command that tells Hugo to generate the static site in the public directory. This command will create all the necessary files like HTML, CSS, JavaScript, and images. To ensure that draft, future, or expired content is not included, you will use a particular flag with the command.
+
+Here is the command you need to run in your terminal or command prompt where your Hugo site project is located:
+
+```bash
+hugo --cleanDestinationDir
+```
+
+This command does the following:
+
+- **hugo**: This is the basic command to build your site.
+- **--cleanDestinationDir**: This flag cleans out the public directory before building. It ensures that only current content is published, and no old or unwanted files are left in the directory.
+
+Remember, this process only generates the static files in the public directory of your Hugo project. It does not deploy these files to a web server or hosting service. For deployment, you would need to follow additional steps depending on your hosting solution.
 
 ### Page settings
 
 These settings are at the page level.
 
 - `showpagemeta`: default=`true`. This allows you to disable page meta information from being displayed. For example, this setting is disabled [here](https://kaapiandcode.github.io/hugo-goa-demo/about/) and enabled [here](https://kaapiandcode.github.io/hugo-goa-demo/coderag/).
+
 - `showcomments`: default=`true`. Enables or disable comments. For example, this setting is disabled [here](https://kaapiandcode.github.io/hugo-goa-demo/blog/third/) and enabled [here](https://kaapiandcode.github.io/hugo-goa-demo/blog/first/).
 
 ## Configuration
@@ -72,8 +141,8 @@ These are site wide configuration parameters that are used by this template.
 - `contentdir`: Where hugo can find your content. eg. `content`.
 - `layoutdir`: Where hugo can find your templates. eg. `layouts`.
 - `publishdir`: Where hugo generates the static site. eg. `public`.
-- `author`: Site author name. eg. `Erlich Bachman`.
-- `title`: Site title name. eg. `Erlich Bachman`.
+- `author`: Site author name. eg. `Panjim Goa`.
+- `title`: Site title name. eg. `Panjim Goa`.
 - `theme`: Your theme name should be set to `hugo-goa` if using this theme.
 
 ## Hugo Built-in Features
@@ -88,9 +157,9 @@ These are features that hugo provides and are used by this template.
 
 These are settings that are specific to this theme.
 
-- `author`: Main author name. eg. `Erlich Bachman`.
-- `intro`: Author introduction. This field supports markdown. eg. `Startup Guru Extraordinaire`.
-- `description`: Author description. This field supports markdown. eg. `Now @Pied Piper. Previously @Hacker Hostel, @Bachmanity and @Aviato. <br/> \"What is F times 5? It's Fleventy-five.\"`.
+- `author`: Main author name. eg. `Panjim Goa`.
+- `intro`: Author introduction. This field supports markdown. eg. `Innovative Tech Guru`.
+- `description`: Author description. This field supports markdown. eg. `Leading the charge at [Incircle Media](https://incirclemedia.com)`.
 - `authorimage`: Location of author image under static/img directory. eg. `headshot.jpg`
 - `dateformat`: Golang date format to be used on this site. eg. `Jan 2, 2006`
 
@@ -145,17 +214,20 @@ These settings to display your social accounts.
 - `pgp`: Your PGP key. The value should be set to the key fingerprint, and the public key should pe placed in static/key_fingerprint.txt
 
 #### Privacy Warning
+
 It is recommended to keep your private data (phone number/ email) private. Especially if you don't use them for business. Adding it to your public will expose your data to the public. This is irreversible.
 
 #### Account Details
+
 ##### Google Scholar
+
 To get this ID, go to Google Scholar, press the "My Profile" tab at the top, then copy the text after the `user=` till the first subsequent `&` (e.g. the `ACCOUNT_ID` part in `https://scholar.google.com/citations?user=ACCOUNT_ID&hl=en`).
 
 ### Extras `[params.extra]`
 
 These settings for extra features that this site uses.
 
-- `copyright`: Add a copyright statement to the bottom of the theme. eg. `© 2016. Erlich Bachman. [Some Rights Reserved](https://creativecommons.org/licenses/by/3.0/)."`
+- `copyright`: Add a copyright statement to the bottom of the theme. eg. `© 2024. Panjim Goa. [Some Rights Reserved](https://creativecommons.org/licenses/by/3.0/)."`
 - `rss`: Enable rss icon next to social accounts.
 - `poweredby`: Help promote this theme and give the authors credit. eg. `true` or `false`.
 - `highlightjs`: Use highlightJS to highlight code on your site. eg. `true` or `false`.
@@ -170,6 +242,7 @@ These settings for the main menu that is displayed on the home page.
 - `url`: Root URL for this section/page. eg. `/blog/`.
 
 Example:
+
 ```toml
 [[menu.main]]
     name = "blog"
@@ -187,13 +260,13 @@ Example:
 
 ## Features
 
-* Responsive
-* Minimalist
-* Bootstrap 3
-* Font Awesome
-* HighlightJS
-* Disqus support for commenting
-* Built-in support for 404 pages, Disqus comments and Google Analytics.
+- Responsive
+- Minimalist
+- Bootstrap 3
+- Font Awesome
+- HighlightJS
+- Disqus support for commenting
+- Built-in support for 404 pages, Disqus comments and Google Analytics.
 
 ## Screenshots
 
@@ -238,11 +311,19 @@ Example:
 
 The theme's design was inspired by many blogs and themes:
 
-1. Bruno de Carvalho's [blog](http://biasedbit.com).
-2. [Hugo Cocoa](https://themes.gohugo.io/cocoa/).
-3. [Hugo Vec](https://themes.gohugo.io/hugo-theme-vec/).
-4. [Hugo Agency](https://themes.gohugo.io/agency/).
+1. [Hugo Cocoa](https://themes.gohugo.io/cocoa/).
+2. [Hugo Vec](https://themes.gohugo.io/hugo-theme-vec/).
+3. [Hugo Agency](https://themes.gohugo.io/agency/).
 
 ## License
 
 Licensed under the [MIT](https://opensource.org/licenses/MIT) License. See the [LICENSE](https://raw.githubusercontent.com/kaapiandcode/hugo-goa/master/LICENSE) file for more details.
+
+## Authors
+
+- Raj Shenoy
+  - web: [kaapiandco.de](kaapiandco.de)
+  - twitter: [@kaapiandcode](https://twitter.com/kaapiandcode)
+- Incircle Media
+  - web: [Incircle Media](incirclemedia.com)
+  - twitter: [@incirclemedia](https://twitter.com/incirclemedia)

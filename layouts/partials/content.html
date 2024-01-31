@@ -1,19 +1,22 @@
-<header class="text-left title">
+<header class="text-start title">
   <h1 class="title">{{ .Title }}</h1>
 </header>
+
 <section id="category-pane" class="meta">
   {{ if ne .Params.showpagemeta false }}
-  <div class="col-md-12">
-    <h6 class="text-left meta">
-       {{ if not .Date.IsZero }} PUBLISHED ON {{ .Date.Format .Site.Params.dateformat | upper }} {{end}}
-       / {{ math.Round (div (countwords .Content) 220.0) }} MIN READ
+  <div class="d-flex flex-column flex-md-row justify-content-between">
+    <h6 class="text-start meta">
+      {{ if not .Date.IsZero }} PUBLISHED ON {{ .Date.Format (default "Jan 2, 2006" .Site.Params.dateformat) | upper }}
+      {{ end }}
+      / {{ math.Round (div (countwords .Content) 220.0) }} MIN READ
       {{ if isset .Params "categories" }}
       {{ $total := len .Params.categories }}
       {{ if gt $total 0 }}
       —
       {{ $total := sub $total 1 }}
       {{ range $i, $cat := sort $.Params.categories }}
-      <a class="meta" href="{{ "/categories/" | relURL }}{{ $cat | urlize }}">{{ $cat | upper }}</a>{{ if lt $i $total }}, {{ end }}
+      <a class="meta"
+        href="{{ "/categories/" | relURL }}{{ $cat | urlize }}">{{ $cat | upper }}</a>{{ if lt $i $total }}, {{ end }}
       {{ end }}
       {{ end }}
       {{ end }}
@@ -21,25 +24,28 @@
   </div>
   {{ end }}
 </section>
-<section id="content-pane" class="">
-  <div class="col-md-12 text-justify content">
-    {{ if and ( ne .Params.toc false) (gt .WordCount 300 ) }}
+
+<section id="content-pane">
+  <div class="text-justify content">
+    {{ if and (ne .Params.toc false) (gt .WordCount 300) }}
     {{ .TableOfContents }}
     {{ end }}
     {{ .Content }}
   </div>
 </section>
+
 <section id="tag-pane" class="meta">
   {{ if ne .Params.showpagemeta false }}
-  <div class="col-md-12">
-    <h6 class="text-right meta">
+  <div class="d-flex flex-column flex-md-row justify-content-between">
+    <h6 class="text-end meta">
       {{ if isset .Params "tags" }}
       {{ $total := len .Params.tags }}
       {{ if gt $total 0 }}
       TAGS:
       {{ $subtotal := sub $total 1 }}
       {{ range $i, $tag := sort $.Params.tags }}
-      <a class="meta" href="{{ "/tags/" | relURL }}{{ $tag | urlize }}">{{ $tag | upper }}</a>{{ if lt $i $subtotal }}, {{ end }}
+      <a class="meta" href="{{ "/tags/" | relURL }}{{ $tag | urlize }}">{{ $tag | upper }}</a>{{ if lt $i $subtotal }},
+      {{ end }}
       {{ end }}
       {{ end }}
       {{ end }}

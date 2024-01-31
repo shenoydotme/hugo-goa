@@ -1,14 +1,32 @@
 <section id="menu-pane" class="menu text-center">
   {{ if not .IsNode }}
-  {{ with .PrevInSection }}
-  <span><a class="menu-item" href="{{ .Permalink }}">&lt; prev | </a></span>
+  <nav aria-label="Page navigation">
+    <ul class="pagination justify-content-center">
+      {{ if .Section }}
+      {{ with .PrevInSection }}
+      <li class="menu-item">
+        <a class="menu-item" href="{{ .Permalink }}">&lt; prev</a>
+      </li>
+      {{ end }}
+
+      <li class="menu-item">
+        {{ if .PrevInSection}}
+        <span class="menu-item">&nbsp;|&nbsp;</span>
+        {{ end}}
+        <a class="menu-item" href="{{ .Section | relURL }}">{{ .Section | lower }}</a>
+        {{ if .NextInSection}}
+        <span class="menu-item">&nbsp;|&nbsp;</span>
+        {{ end}}
+      </li>
+
+      {{ with .NextInSection }}
+      <li class="menu-item">
+        <a class="menu-item" href="{{ .Permalink }}">next &gt;</a>
+      </li>
+      {{ end }}
+      {{ end }}
+    </ul>
+  </nav>
   {{ end }}
-  {{ if (or (.PrevInSection) (.NextInSection)) }}
-  <span><a class="menu-item" href="{{ .Section | relURL }}">{{ .Section | lower }}</a></span>
-  {{ end }}
-  {{ with .NextInSection }}
-  <span><a class="menu-item" href="{{ .Permalink }}"> | next &gt;</a></span>
-  {{ end }}
-  {{ end }}
-  <h4 class="text-center"><a class="menu-item" href="{{ .Site.BaseURL }}">home</a></h4>
+  <h4 class="text-center mt-3"><a class="menu-item" href="{{ .Site.BaseURL }}">home</a></h4>
 </section>
