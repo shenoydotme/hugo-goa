@@ -16,7 +16,7 @@
       {{ $total := sub $total 1 }}
       {{ range $i, $cat := sort $.Params.categories }}
       <a class="meta"
-        href="{{ "/categories/" | relURL }}{{ $cat | urlize }}">{{ $cat | upper }}</a>{{ if lt $i $total }}, {{ end }}
+        href="{{ "categories/" | relURL }}{{ $cat | urlize }}">{{ $cat | upper }}</a>{{ if lt $i $total }}, {{ end }}
       {{ end }}
       {{ end }}
       {{ end }}
@@ -44,7 +44,7 @@
       TAGS:
       {{ $subtotal := sub $total 1 }}
       {{ range $i, $tag := sort $.Params.tags }}
-      <a class="meta" href="{{ "/tags/" | relURL }}{{ $tag | urlize }}">{{ $tag | upper }}</a>{{ if lt $i $subtotal }},
+      <a class="meta" href="{{ "tags/" | relURL }}{{ $tag | urlize }}">{{ $tag | upper }}</a>{{ if lt $i $subtotal }},
       {{ end }}
       {{ end }}
       {{ end }}
