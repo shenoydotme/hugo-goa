@@ -263,8 +263,8 @@ Example:
 
 - Responsive
 - Minimalist
-- Bootstrap 3
-- Font Awesome
+- Bootstrap 5
+- Font Awesome 6
 - HighlightJS
 - Disqus support for commenting
 - Built-in support for 404 pages, Disqus comments and Google Analytics.
