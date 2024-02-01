@@ -2,8 +2,8 @@
 
 Goa is a clean, simple and minimalist theme for blogs and personal websites.
 
-<img src="/images/desktop-home.png" alt="Screenshot Desktop" width="600">
-<img src="/images/mobile-home.png" alt="Screenshot Mobile" width="200">
+<img src="https://raw.githubusercontent.com/kaapiandcode/hugo-goa/master/images/desktop-home.png" alt="Screenshot Desktop" width="600">
+<img src="https://raw.githubusercontent.com/kaapiandcode/hugo-goa/master/images/mobile-home.png" alt="Screenshot Mobile" width="200">
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://raw.githubusercontent.com/kaapiandcode/hugo-goa/master/LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/kaapiandcode/hugo-goa.svg?style=flat-square)](https://github.com/kaapiandcode/hugo-goa/stargazers)
@@ -273,17 +273,17 @@ Example:
 
 ### Mobile
 
-<img src="/images/mobile-home.png" alt="Mobile Home" width="200">
-<img src="/images/mobile-page.png" alt="Mobile Page" width="200">
-<img src="/images/mobile-posts.png" alt="Mobile Posts" width="200">
-<img src="/images/mobile-post.png" alt="Mobile Post" width="200">
+<img src="https://raw.githubusercontent.com/kaapiandcode/hugo-goa/master/images/mobile-home.png" alt="Mobile Home" width="200">
+<img src="https://raw.githubusercontent.com/kaapiandcode/hugo-goa/master/images/mobile-page.png" alt="Mobile Page" width="200">
+<img src="https://raw.githubusercontent.com/kaapiandcode/hugo-goa/master/images/mobile-posts.png" alt="Mobile Posts" width="200">
+<img src="https://raw.githubusercontent.com/kaapiandcode/hugo-goa/master/images/mobile-post.png" alt="Mobile Post" width="200">
 
 ### Desktop
 
-<img src="/images/desktop-home.png" alt="Desktop Home" width="600">
-<img src="/images/desktop-page.png" alt="Desktop Page" width="600">
-<img src="/images/desktop-posts.png" alt="Desktop Posts" width="600">
-<img src="/images/desktop-post.png" alt="Desktop Post" width="600">
+<img src="https://raw.githubusercontent.com/kaapiandcode/hugo-goa/master/images/desktop-home.png" alt="Desktop Home" width="600">
+<img src="https://raw.githubusercontent.com/kaapiandcode/hugo-goa/master/images/desktop-page.png" alt="Desktop Page" width="600">
+<img src="https://raw.githubusercontent.com/kaapiandcode/hugo-goa/master/images/desktop-posts.png" alt="Desktop Posts" width="600">
+<img src="https://raw.githubusercontent.com/kaapiandcode/hugo-goa/master/images/desktop-post.png" alt="Desktop Post" width="600">
 
 ## Contributing
 
