@@ -1,6 +1,6 @@
 ## Basic Configuration
 
-baseurl = "https://kaapiandcode.github.io/hugo-goa-demo/"
+baseurl = "https://kaapiandcode.github.io/"
 builddrafts = false
 canonifyurls = false
 languageCode = "en-US"
@@ -23,8 +23,8 @@ enableRobotsTXT = true
 [params]
 author = "Panjim Goa"
 intro = "Innovative Tech Visionary"
-description = "Leading the charge at [Incircle Media](https://incirclemedia.com)."
-authorimage = "headshot.jpg"
+description = "Leading the charge at [Incircle Media](https://incirclemedia.com)"
+authorimage = "headshot.png"
 dateformat = "Jan 2, 2006"
 
 ## Site Meta Settings
@@ -36,7 +36,6 @@ keywords = "minimalist,blog,goa,hugo,developer"
 [params.social]
 github = "<username>"
 instagram = "<username>"
-xing = "<username>"
 linkedin = "<username>"
 twitter = "<username>"
 facebook = "<username>"
@@ -84,10 +83,10 @@ displayrssicon = true
 
 ## Main Menu
 [[menu.main]]
-name = "blog"
+name = "posts"
 weight = 100
-identifier = "blog"
-url = "/blog/"
+identifier = "posts"
+url = "/posts/"
 [[menu.main]]
 name = "about"
 identifier = "about"
