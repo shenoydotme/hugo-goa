@@ -86,14 +86,14 @@ displayrssicon = true
 name = "posts"
 weight = 100
 identifier = "posts"
-url = "/posts/"
+url = "posts/"
 [[menu.main]]
 name = "about"
 identifier = "about"
 weight = 200
-url = "/about/"
+url = "about/"
 [[menu.main]]
 name = "projects"
 identifier = "projects"
 weight = 300
-url = "/projects/"
+url = "projects/"

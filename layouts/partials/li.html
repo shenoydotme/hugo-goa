@@ -14,7 +14,7 @@
           {{ $total := sub $total 1 }}
           {{ range $i, $cat := sort .Params.categories }}
           <a class="category-link"
-            href="{{ "/categories/" | relURL }}{{ $cat | humanize | urlize }}">{{ $cat | upper }}</a>{{ if lt $i $total }},
+            href="{{ "categories/" | relURL }}{{ $cat | humanize | urlize }}">{{ $cat | upper }}</a>{{ if lt $i $total }},
           {{ end }}
           {{ end }}
           {{ end }}

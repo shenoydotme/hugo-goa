@@ -248,15 +248,15 @@ Example:
 [[menu.main]]
     name = "blog"
     weight = 100
-    url = "/blog/"
+    url = "blog/"
 [[menu.main]]
     name = "about"
     weight = 200
-    url = "/about/"
+    url = "about/"
 [[menu.main]]
-    name = "coderag"
+    name = "projects"
     weight = 300
-    url = "/coderag/"
+    url = "projects/"
 ```
 
 ## Features
