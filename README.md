@@ -326,8 +326,8 @@ Licensed under the [MIT](https://opensource.org/licenses/MIT) License. See the [
 ## Authors
 
 - Raj Shenoy
-  - web: [kaapiandco.de](kaapiandco.de)
+  - web: [kaapiandco.de](https://kaapiandco.de)
   - twitter: [@kaapiandcode](https://twitter.com/kaapiandcode)
 - Incircle Media
-  - web: [Incircle Media](incirclemedia.com)
+  - web: [Incircle Media](https://incirclemedia.com)
   - twitter: [@incirclemedia](https://twitter.com/incirclemedia)
