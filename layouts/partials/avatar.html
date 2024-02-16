@@ -1,7 +1,12 @@
 <header class="text-center header">
   {{ with .Site.Params.authorimage }}
-  {{ $image := resources.Get (printf "images/%s" .) }}
-  <img src="{{ $image.Permalink }}" alt="Author Image" class="img-fluid rounded-circle mx-auto d-block headshot">
+  {{ with resources.Get (printf "images/%s" .)}}
+  <img src="{{ .Permalink }}" alt="Author Image" class="img-fluid rounded-circle mx-auto d-block headshot">
+  {{ else }}
+  {{ with resources.Get (printf "img/%s" .)}}
+  <img src="{{ .Permalink }}" alt="Author Image" class="img-fluid rounded-circle mx-auto d-block headshot">
+  {{ end }}
+  {{ end }}
   {{ end }}
 
   <h1 class="author mt-3">{{ .Site.Params.author }}</h1>
