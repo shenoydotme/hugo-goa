@@ -161,7 +161,7 @@ These are settings that are specific to this theme.
 - `author`: Main author name. eg. `Panjim Goa`.
 - `intro`: Author introduction. This field supports markdown. eg. `Innovative Tech Guru`.
 - `description`: Author description. This field supports markdown. eg. `Leading the charge at [Incircle Media](https://incirclemedia.com)`.
-- `authorimage`: Location of author image under static/images directory. eg. `headshot.jpg`
+- `authorimage`: Location of author image under static/img or assets/images directory. eg. `headshot.jpg`
 - `dateformat`: Golang date format to be used on this site. eg. `Jan 2, 2006`
 
 ### Site Meta Settings `[params.meta]`
