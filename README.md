@@ -2,18 +2,18 @@
 
 Goa is a clean, simple and minimalist theme for blogs and personal websites.
 
-<img src="https://raw.githubusercontent.com/kaapiandcode/hugo-goa/master/images/desktop-home.png" alt="Screenshot Desktop" width="600">
-<img src="https://raw.githubusercontent.com/kaapiandcode/hugo-goa/master/images/mobile-home.png" alt="Screenshot Mobile" width="200">
+<img src="https://raw.githubusercontent.com/shenoydotme/hugo-goa/master/images/desktop-home.png" alt="Screenshot Desktop" width="600">
+<img src="https://raw.githubusercontent.com/shenoydotme/hugo-goa/master/images/mobile-home.png" alt="Screenshot Mobile" width="200">
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://raw.githubusercontent.com/kaapiandcode/hugo-goa/master/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/kaapiandcode/hugo-goa.svg?style=flat-square)](https://github.com/kaapiandcode/hugo-goa/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/kaapiandcode/hugo-goa.svg?style=flat-square)](https://github.com/kaapiandcode/hugo-goa/network)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://raw.githubusercontent.com/shenoydotme/hugo-goa/master/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/shenoydotme/hugo-goa.svg?style=flat-square)](https://github.com/shenoydotme/hugo-goa/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/shenoydotme/hugo-goa.svg?style=flat-square)](https://github.com/shenoydotme/hugo-goa/network)
 [![quality badge](https://img.shields.io/badge/cuteness-overload-blue.svg?style=flat-square)](https://www.emergencykitten.com/)
 [![quality badge](https://img.shields.io/badge/quality-awesome-green.svg?style=flat-square)](https://www.emergencykitten.com/)
 
 ## Demo
 
-You can find the demo site in action [here](https://kaapiandcode.github.io/hugo-goa-demo) and the source [here](https://github.com/kaapiandcode/hugo-goa-demo).
+You can find the demo site in action [here](https://shenoydotme.github.io/hugo-goa-demo) and the source [here](https://github.com/shenoydotme/hugo-goa-demo).
 
 ## Installation
 
@@ -21,7 +21,7 @@ You can find the demo site in action [here](https://kaapiandcode.github.io/hugo-
 hugo new site quickstart
 cd quickstart
 git init
-git submodule add https://github.com/kaapiandcode/hugo-goa.git themes/hugo-goa
+git submodule add https://github.com/shenoydotme/hugo-goa.git themes/hugo-goa
 echo "theme = 'hugo-goa'" >> hugo.toml
 hugo server
 ```
@@ -123,13 +123,13 @@ Remember, this process only generates the static files in the public directory o
 
 These settings are at the page level.
 
-- `showpagemeta`: default=`true`. This allows you to disable page meta information from being displayed. For example, this setting is disabled [here](https://kaapiandcode.github.io/hugo-goa-demo/about/) and enabled [here](https://kaapiandcode.github.io/hugo-goa-demo/coderag/).
+- `showpagemeta`: default=`true`. This allows you to disable page meta information from being displayed. For example, this setting is disabled [here](https://shenoydotme.github.io/hugo-goa-demo/about/) and enabled [here](https://shenoydotme.github.io/hugo-goa-demo/coderag/).
 
-- `showcomments`: default=`true`. Enables or disable comments. For example, this setting is disabled [here](https://kaapiandcode.github.io/hugo-goa-demo/blog/third/) and enabled [here](https://kaapiandcode.github.io/hugo-goa-demo/blog/first/).
+- `showcomments`: default=`true`. Enables or disable comments. For example, this setting is disabled [here](https://shenoydotme.github.io/hugo-goa-demo/blog/third/) and enabled [here](https://shenoydotme.github.io/hugo-goa-demo/blog/first/).
 
 ## Configuration
 
-The provided [config.toml](https://github.com/kaapiandcode/hugo-goa/blob/master/exampleSite/config.toml) describes all options and features that are supported. Configure it your way!
+The provided [config.toml](https://github.com/shenoydotme/hugo-goa/blob/master/exampleSite/config.toml) describes all options and features that are supported. Configure it your way!
 
 ### Basic Configuration
 
@@ -273,17 +273,17 @@ Example:
 
 ### Mobile
 
-<img src="https://raw.githubusercontent.com/kaapiandcode/hugo-goa/master/images/mobile-home.png" alt="Mobile Home" width="200">
-<img src="https://raw.githubusercontent.com/kaapiandcode/hugo-goa/master/images/mobile-page.png" alt="Mobile Page" width="200">
-<img src="https://raw.githubusercontent.com/kaapiandcode/hugo-goa/master/images/mobile-posts.png" alt="Mobile Posts" width="200">
-<img src="https://raw.githubusercontent.com/kaapiandcode/hugo-goa/master/images/mobile-post.png" alt="Mobile Post" width="200">
+<img src="https://raw.githubusercontent.com/shenoydotme/hugo-goa/master/images/mobile-home.png" alt="Mobile Home" width="200">
+<img src="https://raw.githubusercontent.com/shenoydotme/hugo-goa/master/images/mobile-page.png" alt="Mobile Page" width="200">
+<img src="https://raw.githubusercontent.com/shenoydotme/hugo-goa/master/images/mobile-posts.png" alt="Mobile Posts" width="200">
+<img src="https://raw.githubusercontent.com/shenoydotme/hugo-goa/master/images/mobile-post.png" alt="Mobile Post" width="200">
 
 ### Desktop
 
-<img src="https://raw.githubusercontent.com/kaapiandcode/hugo-goa/master/images/desktop-home.png" alt="Desktop Home" width="600">
-<img src="https://raw.githubusercontent.com/kaapiandcode/hugo-goa/master/images/desktop-page.png" alt="Desktop Page" width="600">
-<img src="https://raw.githubusercontent.com/kaapiandcode/hugo-goa/master/images/desktop-posts.png" alt="Desktop Posts" width="600">
-<img src="https://raw.githubusercontent.com/kaapiandcode/hugo-goa/master/images/desktop-post.png" alt="Desktop Post" width="600">
+<img src="https://raw.githubusercontent.com/shenoydotme/hugo-goa/master/images/desktop-home.png" alt="Desktop Home" width="600">
+<img src="https://raw.githubusercontent.com/shenoydotme/hugo-goa/master/images/desktop-page.png" alt="Desktop Page" width="600">
+<img src="https://raw.githubusercontent.com/shenoydotme/hugo-goa/master/images/desktop-posts.png" alt="Desktop Posts" width="600">
+<img src="https://raw.githubusercontent.com/shenoydotme/hugo-goa/master/images/desktop-post.png" alt="Desktop Post" width="600">
 
 ## Contributing
 
@@ -321,13 +321,13 @@ The theme's design was inspired by many blogs and themes:
 
 ## License
 
-Licensed under the [MIT](https://opensource.org/licenses/MIT) License. See the [LICENSE](https://raw.githubusercontent.com/kaapiandcode/hugo-goa/master/LICENSE) file for more details.
+Licensed under the [MIT](https://opensource.org/licenses/MIT) License. See the [LICENSE](https://raw.githubusercontent.com/shenoydotme/hugo-goa/master/LICENSE) file for more details.
 
 ## Authors
 
 - Raj Shenoy
-  - web: [kaapiandco.de](https://kaapiandco.de)
-  - twitter: [@kaapiandcode](https://twitter.com/kaapiandcode)
+  - web: [shenoydotme](https://shenoy.me)
+  - twitter: [@shenoydotme](https://twitter.com/shenoydotme)
 - Incircle Media
   - web: [Incircle Media](https://incirclemedia.com)
   - twitter: [@incirclemedia](https://twitter.com/incirclemedia)

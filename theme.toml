@@ -1,13 +1,32 @@
 name = "Goa"
 license = "MIT"
-licenselink = "https://github.com/kaapiandcode/hugo-goa/blob/master/LICENSE.md"
+licenselink = "https://github.com/shenoydotme/hugo-goa/blob/master/LICENSE.md"
 description = "Simple Minimalist Hugo Theme"
-homepage = "https://github.com/kaapiandcode/hugo-goa"
-tags = ["Roboto", "Lato", "Roboto Slab", "bootstrap", "font awesome", "minimal", "clean"]
-features = ["blog", "pages", "minimal", "responsive", "404", "icons", "disqus", "anlaytics"]
-min_version = "v0.112.0"
+homepage = "https://github.com/shenoydotme/hugo-goa"
+demosite = "https://shenoydotme.github.io/hugo-goa-demo/"
+tags = [
+  "Roboto",
+  "Lato",
+  "Roboto Slab",
+  "bootstrap",
+  "font awesome",
+  "minimal",
+  "clean",
+]
+features = [
+  "blog",
+  "pages",
+  "minimal",
+  "responsive",
+  "404",
+  "icons",
+  "disqus",
+  "anlaytics",
+]
 
-[author]
-  name = "Rajesh Shenoy"
-  homepage = "https://kaapiandco.de"
+min_version = "v0.134.0"
 
+# If the theme has multiple authors
+authors = [
+  {name = "Rajesh Shenoy", homepage = "https://shenoy.me"},
+]
