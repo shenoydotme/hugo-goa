@@ -116,6 +116,9 @@
   {{ with .Site.Params.social.holopin}}
   <a href="https://www.holopin.io/{{.}}" aria-label="Holopin" target="_blank"><i class="fas fa-certificate" aria-hidden="true"></i></a>
   {{ end }}
+  {{ with .Site.Params.social.bluesky }}
+  <a href="https://bsky.app/profile/{{.}}" aria-label="Bluesky" target="_blank"><i class="fa-brands fa-bluesky" aria-hidden="true"></i></a>
+  {{ end }}
   {{ with .Site.Params.social.email }}
   <a href="mailto:{{.}}" aria-label="Email"><i class="fas fa-envelope" aria-hidden="true"></i></a>
   {{ end }}
@@ -135,6 +138,7 @@
   "url": "{{ .Site.Params.baseURL }}",
   "sameAs": [
     {{ with .Site.Params.social.twitter }}"https://twitter.com/{{.}}",{{ end }}
+    {{ with .Site.Params.social.bluesky }}"https://bsky.app/profile/{{.}}",{{ end }}
     {{ with .Site.Params.social.google }}"https://plus.google.com/{{.}}/about",{{ end }}
     {{ with .Site.Params.social.googlescholar}}"https://scholar.google.com/citations?user={{.}}",{{ end }}
     {{ with .Site.Params.social.orcid}}"https://orcid.org/{{.}}",{{ end }}

@@ -180,6 +180,7 @@ These settings to display your social accounts.
 - `xing`: Your [Xing](https://www.xing.com) username.
 - `linkedin`: Your [Linkedin](https://www.linkedin.com) username.
 - `twitter`: Your [Twitter](https://twitter.com) username.
+- `bluesky`: Your [Bluesky](https://bsky.app/) username.
 - `facebook`: Your [Facebook](https://www.facebook.com) username.
 - `google`: Your [Google](https://www.google.com) username.
 - `googlescholar`: Your [Google Scholar](https://scholar.google.com) account ID. [How to get this ID](#google-scholar)
