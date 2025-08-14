@@ -138,7 +138,6 @@
   "url": "{{ .Site.Params.baseURL }}",
   "sameAs": [
     {{ with .Site.Params.social.twitter }}"https://twitter.com/{{.}}",{{ end }}
-    {{ with .Site.Params.social.bluesky }}"https://bsky.app/profile/{{.}}",{{ end }}
     {{ with .Site.Params.social.google }}"https://plus.google.com/{{.}}/about",{{ end }}
     {{ with .Site.Params.social.googlescholar}}"https://scholar.google.com/citations?user={{.}}",{{ end }}
     {{ with .Site.Params.social.orcid}}"https://orcid.org/{{.}}",{{ end }}
@@ -174,6 +173,7 @@
     {{ with .Site.Params.social.buymeacoffee}}"https://www.buymeacoffee.com//{{.}}",{{ end }}
     {{ with .Site.Params.social.kaggle}}"https://www.kaggle.com/{{.}}",{{ end }}
     {{ with .Site.Params.social.holopin}}"https://www.holopin.io/{{.}}",{{ end }}
+    {{ with .Site.Params.social.bluesky }}"https://bsky.app/profile/{{.}}",{{ end }}
     "{{ .Site.Params.baseURL }}"
   ]
 }
