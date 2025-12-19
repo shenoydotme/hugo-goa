@@ -1,1 +1,32 @@
 /* Add custom CSS here. */
+
+a,
+a:hover,
+a:visited,
+a:link
+{
+    font-weight: 500;
+    text-decoration-line: none;
+    text-decoration-color: black;
+}
+
+a:link code {
+    font-weight: 600;
+}
+
+blockquote {
+    border-left: 10px solid #ccc;
+    padding: 1em 10px .1em 10px;
+}
+
+div.content {
+    color: #444;
+}
+
+p {
+    text-align: justify;
+}
+
+img {
+    width: 100%;
+}
