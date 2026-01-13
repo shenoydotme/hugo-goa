@@ -142,8 +142,8 @@ These are site wide configuration parameters that are used by this template.
 - `contentdir`: Where hugo can find your content. eg. `content`.
 - `layoutdir`: Where hugo can find your templates. eg. `layouts`.
 - `publishdir`: Where hugo generates the static site. eg. `public`.
-- `author`: Site author name. eg. `Panjim Goa`.
-- `title`: Site title name. eg. `Panjim Goa`.
+- `author`: Site author name. eg. `Papyrus Apps`.
+- `title`: Site title name. eg. `Papyrus Apps`.
 - `theme`: Your theme name should be set to `hugo-goa` if using this theme.
 
 ## Hugo Built-in Features
@@ -158,9 +158,9 @@ These are features that hugo provides and are used by this template.
 
 These are settings that are specific to this theme.
 
-- `author`: Main author name. eg. `Panjim Goa`.
+- `author`: Main author name. eg. `Papyrus Apps`.
 - `intro`: Author introduction. This field supports markdown. eg. `Innovative Tech Guru`.
-- `description`: Author description. This field supports markdown. eg. `Leading the charge at [Incircle Media](https://incirclemedia.com)`.
+- `description`: Author description. This field supports markdown. eg. `Leading the charge at [Papyrus Apps](https://papyrusapps.com)`.
 - `authorimage`: Location of author image under static/img or assets/images directory. eg. `headshot.jpg`
 - `dateformat`: Golang date format to be used on this site. eg. `Jan 2, 2006`
 
@@ -210,6 +210,7 @@ These settings to display your social accounts.
 - `skype`: Your [skype](https://skype.com) username.
 - `telegram`: Your [Telegram](https://telegram.com) username.
 - `holopin`: Your [Holopin](https://www.holopin.io) username.
+- `bluesky`: Your [Bluesky](https://bsky.app/) username.
 - `whatsapp`: Your phone number. Follow the steps [here](https://faq.whatsapp.com/en/26000030/). [Privacy Warning](#privacy-warning)
 - `email`: Your email. [Privacy Warning](#privacy-warning)
 - `pgp`: Your PGP key. The value should be set to the key fingerprint, and the public key should pe placed in static/key_fingerprint.txt
@@ -228,7 +229,7 @@ To get this ID, go to Google Scholar, press the "My Profile" tab at the top, the
 
 These settings for extra features that this site uses.
 
-- `copyright`: Add a copyright statement to the bottom of the theme. eg. `© 2024. Panjim Goa. [Some Rights Reserved](https://creativecommons.org/licenses/by/3.0/)."`
+- `copyright`: Add a copyright statement to the bottom of the theme. eg. `© 2026. Papyrus Apps. [Some Rights Reserved](https://creativecommons.org/licenses/by/3.0/)."`
 - `rss`: Enable rss icon next to social accounts.
 - `poweredby`: Help promote this theme and give the authors credit. eg. `true` or `false`.
 - `highlightjs`: Use highlightJS to highlight code on your site. eg. `true` or `false`.
@@ -328,6 +329,6 @@ Licensed under the [MIT](https://opensource.org/licenses/MIT) License. See the [
 - Raj Shenoy
   - web: [shenoydotme](https://shenoy.me)
   - twitter: [@shenoydotme](https://twitter.com/shenoydotme)
-- Incircle Media
-  - web: [Incircle Media](https://incirclemedia.com)
-  - twitter: [@incirclemedia](https://twitter.com/incirclemedia)
+- Papyrus Apps
+  - web: [Papyrus Apps](https://papyrusapps.com)
+  - twitter: [@papyrusapps](https://twitter.com/papyrusapps)

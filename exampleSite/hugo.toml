@@ -1,6 +1,6 @@
 ## Basic Configuration
 
-baseurl = "https://shenoydotme.github.io/"
+baseurl = "https://papyrusapps.com/"
 builddrafts = false
 canonifyurls = false
 languageCode = "en-US"
@@ -9,8 +9,8 @@ contentdir = "content"
 layoutdir = "layouts"
 publishdir = "public"
 
-author = "Panjim Goa"
-title = "Panjim Goa"
+author = "Papyrus Apps"
+title = "Papyrus Apps"
 
 theme = "hugo-goa"
 
@@ -21,9 +21,9 @@ enableRobotsTXT = true
 
 ## Site Settings
 [params]
-author = "Panjim Goa"
-intro = "Innovative Tech Visionary"
-description = "Leading the charge at [Incircle Media](https://incirclemedia.com)"
+author = "Papyrus Apps"
+intro = "Calm, useful software built with care"
+description = "Building thoughtful apps at [Papyrus Apps](https://papyrusapps.com)."
 authorimage = "headshot.png"
 dateformat = "Jan 2, 2006"
 
@@ -69,12 +69,13 @@ whatsapp = "<username>"
 buymeacoffee = "<username>"
 kaggle = "<username>"
 holopin = "<username>"
+bluesky = "<username>"
 email = "you@example.com"
 pgp = "<key_fingerprint>"
 
 ## Extras
 [params.extra]
-copyright = "© 2024. Panjim Goa. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
+copyright = "© 2026. Papyrus Apps. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
 poweredby = true
 highlightjs = true
 socialmarkup = true
