@@ -129,19 +129,19 @@ These settings are at the page level.
 
 ## Configuration
 
-The provided [config.toml](https://github.com/shenoydotme/hugo-goa/blob/master/exampleSite/config.toml) describes all options and features that are supported. Configure it your way!
+The provided [hugo.toml](https://github.com/shenoydotme/hugo-goa/blob/master/exampleSite/hugo.toml) describes all options and features that are supported. Configure it your way!
 
 ### Basic Configuration
 
 These are site wide configuration parameters that are used by this template.
 
-- `baseurl`: This is the root of your site.
-- `builddrafts`: default=`false`. Enables or Disable building drafts when hugo is run.
-- `canonifyurls`: default=`false`. Prefix all relative URLs with your base URL. [More Information](https://gohugo.io/extras/urls#canonicalization).
+- `baseURL`: This is the root of your site.
+- `buildDrafts`: default=`false`. Enables or Disable building drafts when hugo is run.
+- `canonifyURLs`: default=`false`. Prefix all relative URLs with your base URL. [More Information](https://gohugo.io/extras/urls#canonicalization).
 - `languageCode`: Used to set site localization preferences. eg. `en-US`.
-- `contentdir`: Where hugo can find your content. eg. `content`.
-- `layoutdir`: Where hugo can find your templates. eg. `layouts`.
-- `publishdir`: Where hugo generates the static site. eg. `public`.
+- `contentDir`: Where hugo can find your content. eg. `content`.
+- `layoutDir`: Where hugo can find your templates. eg. `layouts`.
+- `publishDir`: Where hugo generates the static site. eg. `public`.
 - `author`: Site author name. eg. `Papyrus Apps`.
 - `title`: Site title name. eg. `Papyrus Apps`.
 - `theme`: Your theme name should be set to `hugo-goa` if using this theme.

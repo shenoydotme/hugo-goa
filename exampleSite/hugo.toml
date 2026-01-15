@@ -15,9 +15,13 @@ title = "Papyrus Apps"
 theme = "hugo-goa"
 
 ## Hugo Built-in Features
-# disqusShortname = "discusShortname" # Enable if you want to use Disqus
-# googleAnalytics = "UA-XXXXXXXX-X" # Enable if you want to use Google Analytics
-enableRobotsTXT = true
+# Enable if you want to use Disqus
+#[services]
+#  [services.disqus]
+#    shortname = 'your-disqus-shortname'
+# Enable if you want to use Google Analytics
+#  [services.googleAnalytics]
+#    id = 'G-MEASUREMENT_ID'
 
 ## Site Settings
 [params]
